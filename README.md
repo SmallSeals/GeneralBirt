@@ -31,13 +31,13 @@
 
 > 平时常用报表展示图
 
-![](https://i.imgur.com/xJMxX35.png)
+![](https://i.imgur.com/0dsKKBV.jpg)
 
 
 
 > 支持图片等比缩放
 
-![](https://i.imgur.com/TcycEve.png)
+![](https://i.imgur.com/f5LzT8T.jpg)
 
 
 > 模板开发
