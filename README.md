@@ -1,4 +1,4 @@
-# GeneralBirt#
+# GeneralBirt #
 
 
 
@@ -35,3 +35,6 @@
 
 
 
+> 支持图片等比缩放
+
+![](https://i.imgur.com/TcycEve.png)
