@@ -10,7 +10,7 @@
 
 > 邮箱 : 615567404@qq.com
 
-> Github : https://github.com/pdh615567404/GeneralBirt
+> Github : https://github.com/SmallSeals
 
 > QQ : 615567404
 
