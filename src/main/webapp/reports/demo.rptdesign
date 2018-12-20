@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">96</property>
+    <data-sources>
+        <script-data-source name="Data Source" id="4"/>
+    </data-sources>
+    <data-sets>
+        <script-data-set name="Data Set" id="5">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">barcode1</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">barcode2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">barcode3</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">barcode4</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">barcode1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">barcode2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">barcode3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">barcode4</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">barcode1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">barcode2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">barcode3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">barcode4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[importPackage(Packages.java.lang);
+rep=reportContext.getHttpServletRequest();
+sresultList = rep.getAttribute("data");
+stotalrows = sresultList.size();
+scurrentrow=0;]]></method>
+            <method name="fetch"><![CDATA[if(scurrentrow >= stotalrows){
+return false;
+}
+row["barcode1"] = sresultList.get(scurrentrow).get("barcode1");
+System.out.println(row["barcode1"]);
+row["barcode2"] = sresultList.get(scurrentrow).get("barcode2");
+row["barcode3"] = sresultList.get(scurrentrow).get("barcode3");
+row["barcode4"] = sresultList.get(scurrentrow).get("barcode4");
+scurrentrow++;
+return true;]]></method>
+            <method name="close"><![CDATA[sresultList=null;]]></method>
+        </script-data-set>
+    </data-sets>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <page-footer>
+                <text id="3">
+                    <property name="contentType">html</property>
+                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                </text>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table id="6">
+            <property name="dataSet">Data Set</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">barcode1</property>
+                    <text-property name="displayName">barcode1</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["barcode1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">barcode2</property>
+                    <text-property name="displayName">barcode2</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["barcode2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">barcode3</property>
+                    <text-property name="displayName">barcode3</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["barcode3"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">barcode4</property>
+                    <text-property name="displayName">barcode4</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["barcode4"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="19"/>
+            <column id="20"/>
+            <column id="21"/>
+            <column id="30"/>
+            <header>
+                <row id="7">
+                    <property name="height">0.4270833333333333in</property>
+                    <cell id="8">
+                        <label id="31">
+                            <property name="fontSize">18pt</property>
+                            <property name="textAlign">right</property>
+                            <property name="display">block</property>
+                            <text-property name="text">Carton No.</text-property>
+                        </label>
+                    </cell>
+                    <cell id="9"/>
+                    <cell id="10">
+                        <label id="32">
+                            <property name="fontSize">18pt</property>
+                            <property name="textAlign">right</property>
+                            <property name="display">block</property>
+                            <text-property name="text">QTY:</text-property>
+                        </label>
+                    </cell>
+                    <cell id="27"/>
+                </row>
+            </header>
+            <detail>
+                <row id="43">
+                    <property name="height">1.5in</property>
+                    <cell id="44">
+                        <extended-item extensionName="BarcodeItem" id="48">
+                            <property name="barcodeType" type="constant">EAN_8</property>
+                            <property name="encoding" type="constant">UTF-8</property>
+                            <property name="content" type="javascript">1111</property>
+                            <property name="width">1.8020833333333333in</property>
+                        </extended-item>
+                        <data id="52">
+                            <property name="resultSetColumn">barcode1</property>
+                        </data>
+                    </cell>
+                    <cell id="45"/>
+                    <cell id="46"/>
+                    <cell id="47"/>
+                </row>
+            </detail>
+        </table>
+    </body>
+</report>

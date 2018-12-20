@@ -1,0 +1,1679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/first_report.gif</property>
+    <property name="cheatSheet">org.eclipse.birt.report.designer.ui.cheatsheet.firstreport</property>
+    <property name="layoutPreference">auto layout</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">96</property>
+    <template-parameter-definitions>
+        <template-parameter-definition name="NewTemplateParameterDefinition" id="28">
+            <property name="allowedType">Table</property>
+            <text-property name="description">Customer Listing</text-property>
+            <default>
+                <table id="29">
+                    <property name="width">100%</property>
+                    <property name="pageBreakInterval">50</property>
+                    <column id="49"/>
+                    <column id="50"/>
+                    <column id="51"/>
+                    <column id="52"/>
+                    <header>
+                        <row id="30">
+                            <cell id="31">
+                                <label id="32">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Contact</text-property>
+                                </label>
+                            </cell>
+                            <cell id="33">
+                                <label id="34">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">First</text-property>
+                                </label>
+                            </cell>
+                            <cell id="35">
+                                <label id="36">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Last</text-property>
+                                </label>
+                            </cell>
+                            <cell id="37">
+                                <label id="38">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Phone</text-property>
+                                </label>
+                            </cell>
+                        </row>
+                    </header>
+                    <detail>
+                        <row id="39">
+                            <cell id="40"/>
+                            <cell id="41"/>
+                            <cell id="42"/>
+                            <cell id="43"/>
+                        </row>
+                    </detail>
+                    <footer>
+                        <row id="44">
+                            <cell id="45"/>
+                            <cell id="46"/>
+                            <cell id="47"/>
+                            <cell id="48"/>
+                        </row>
+                    </footer>
+                </table>
+            </default>
+        </template-parameter-definition>
+        <template-parameter-definition name="NewTemplateParameterDefinition1" id="78">
+            <property name="allowedType">Table</property>
+            <text-property name="description">Customer Listing Table</text-property>
+            <default>
+                <table id="79">
+                    <property name="width">100%</property>
+                    <property name="refTemplateParameter">NewTemplateParameterDefinition</property>
+                    <property name="pageBreakInterval">50</property>
+                    <column id="99"/>
+                    <column id="100"/>
+                    <column id="101"/>
+                    <column id="102"/>
+                    <header>
+                        <row id="80">
+                            <cell id="81">
+                                <label id="82">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Contact</text-property>
+                                </label>
+                            </cell>
+                            <cell id="83">
+                                <label id="84">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">First</text-property>
+                                </label>
+                            </cell>
+                            <cell id="85">
+                                <label id="86">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Last</text-property>
+                                </label>
+                            </cell>
+                            <cell id="87">
+                                <label id="88">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Phone</text-property>
+                                </label>
+                            </cell>
+                        </row>
+                    </header>
+                    <detail>
+                        <row id="89">
+                            <cell id="90"/>
+                            <cell id="91"/>
+                            <cell id="92"/>
+                            <cell id="93"/>
+                        </row>
+                    </detail>
+                    <footer>
+                        <row id="94">
+                            <cell id="95"/>
+                            <cell id="96"/>
+                            <cell id="97"/>
+                            <cell id="98"/>
+                        </row>
+                    </footer>
+                </table>
+            </default>
+        </template-parameter-definition>
+        <template-parameter-definition name="NewTemplateParameterDefinition2" id="132">
+            <property name="allowedType">Table</property>
+            <text-property name="description">Customer Listing Table</text-property>
+            <default>
+                <table id="133">
+                    <property name="width">100%</property>
+                    <property name="refTemplateParameter">NewTemplateParameterDefinition1</property>
+                    <property name="pageBreakInterval">50</property>
+                    <column id="157"/>
+                    <column id="158"/>
+                    <column id="159"/>
+                    <column id="160"/>
+                    <header>
+                        <row id="134">
+                            <cell id="135">
+                                <label id="136">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Contact</text-property>
+                                </label>
+                            </cell>
+                            <cell id="137">
+                                <label id="138">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">First</text-property>
+                                </label>
+                            </cell>
+                            <cell id="139">
+                                <label id="140">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Last</text-property>
+                                </label>
+                            </cell>
+                            <cell id="141">
+                                <label id="142">
+                                    <property name="fontFamily">sans-serif</property>
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Phone</text-property>
+                                </label>
+                            </cell>
+                        </row>
+                    </header>
+                    <detail>
+                        <row id="143">
+                            <cell id="144">
+                                <data id="145"/>
+                            </cell>
+                            <cell id="146">
+                                <data id="147"/>
+                            </cell>
+                            <cell id="148">
+                                <data id="149"/>
+                            </cell>
+                            <cell id="150">
+                                <data id="151"/>
+                            </cell>
+                        </row>
+                    </detail>
+                    <footer>
+                        <row id="152">
+                            <cell id="153"/>
+                            <cell id="154"/>
+                            <cell id="155"/>
+                            <cell id="156"/>
+                        </row>
+                    </footer>
+                </table>
+            </default>
+        </template-parameter-definition>
+    </template-parameter-definitions>
+    <data-sources>
+        <script-data-source name="Data Source" id="355"/>
+    </data-sources>
+    <data-sets>
+        <script-data-set name="Data Set" id="356">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">size</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">size_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">ebort</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">uptxt</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">potx2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">spec</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">icolor1</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">icolor1_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">icolor2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">icolor2_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">icolor3</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">icolor3_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">icolor4</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">icolor4_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">style</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">style_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">spart</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">spart_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">band</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">dgers</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">21</property>
+                    <property name="name">text2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">22</property>
+                    <property name="name">color1</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">23</property>
+                    <property name="name">color1_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">24</property>
+                    <property name="name">color2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">25</property>
+                    <property name="name">color2_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">26</property>
+                    <property name="name">color3</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">27</property>
+                    <property name="name">color3_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">28</property>
+                    <property name="name">color4</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">29</property>
+                    <property name="name">color4_t</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">30</property>
+                    <property name="name">pic_url</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">31</property>
+                    <property name="name">idnrk</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">32</property>
+                    <property name="name">keyno</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">33</property>
+                    <property name="name">itmno</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">size</property>
+                </structure>
+                <structure>
+                    <property name="columnName">size_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ebort</property>
+                </structure>
+                <structure>
+                    <property name="columnName">uptxt</property>
+                </structure>
+                <structure>
+                    <property name="columnName">potx2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">spec</property>
+                </structure>
+                <structure>
+                    <property name="columnName">icolor1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">icolor1_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">icolor2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">icolor2_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">icolor3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">icolor3_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">icolor4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">icolor4_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">style</property>
+                </structure>
+                <structure>
+                    <property name="columnName">style_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">spart</property>
+                </structure>
+                <structure>
+                    <property name="columnName">spart_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">band</property>
+                </structure>
+                <structure>
+                    <property name="columnName">dgers</property>
+                </structure>
+                <structure>
+                    <property name="columnName">text2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color1_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color2_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color3_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color4_t</property>
+                </structure>
+                <structure>
+                    <property name="columnName">pic_url</property>
+                </structure>
+                <structure>
+                    <property name="columnName">idnrk</property>
+                </structure>
+                <structure>
+                    <property name="columnName">keyno</property>
+                </structure>
+                <structure>
+                    <property name="columnName">itmno</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">size</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">size_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">ebort</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">uptxt</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">potx2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">spec</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">icolor1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">icolor1_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">icolor2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">icolor2_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">icolor3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">icolor3_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">icolor4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">icolor4_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">style</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">style_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">spart</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">spart_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">band</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">dgers</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">21</property>
+                        <property name="name">text2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">22</property>
+                        <property name="name">color1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">23</property>
+                        <property name="name">color1_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">24</property>
+                        <property name="name">color2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">25</property>
+                        <property name="name">color2_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">26</property>
+                        <property name="name">color3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">27</property>
+                        <property name="name">color3_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">28</property>
+                        <property name="name">color4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">29</property>
+                        <property name="name">color4_t</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">30</property>
+                        <property name="name">pic_url</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">31</property>
+                        <property name="name">idnrk</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">32</property>
+                        <property name="name">keyno</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">33</property>
+                        <property name="name">itmno</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[
+rep=reportContext.getHttpServletRequest();
+sresultList = rep.getAttribute("data");
+stotalrows = sresultList.size();
+scurrentrow=0;]]></method>
+            <method name="fetch"><![CDATA[if(scurrentrow >= stotalrows){
+return false;
+}
+row["keyno"] = sresultList.get(scurrentrow).get("keyno");
+row["itmno"] = sresultList.get(scurrentrow).get("itmno");
+
+row["idnrk"] = sresultList.get(scurrentrow).get("idnrk");
+row["size"] = sresultList.get(scurrentrow).get("size");
+row["size_t"] = sresultList.get(scurrentrow).get("size_t");
+row["ebort"] = sresultList.get(scurrentrow).get("ebort");
+row["uptxt"] = sresultList.get(scurrentrow).get("uptxt");
+row["potx2"] = sresultList.get(scurrentrow).get("potx2");
+row["spec"] = sresultList.get(scurrentrow).get("spec");
+row["icolor1"] = sresultList.get(scurrentrow).get("icolor1");
+row["icolor1_t"] = sresultList.get(scurrentrow).get("icolor1_t");
+row["icolor2"] = sresultList.get(scurrentrow).get("icolor2");
+row["icolor2_t"] = sresultList.get(scurrentrow).get("icolor2_t");
+row["icolor3"] = sresultList.get(scurrentrow).get("icolor3");
+row["icolor3_t"] = sresultList.get(scurrentrow).get("icolor3_t");
+row["icolor4"] = sresultList.get(scurrentrow).get("icolor4");
+row["icolor4_t"] = sresultList.get(scurrentrow).get("icolor4_t");
+row["style"] =  sresultList.get(scurrentrow).get("style");
+row["style_t"] = sresultList.get(scurrentrow).get("style_t");
+row["pic_url"] = sresultList.get(scurrentrow).get("pic_url");
+row["spart"] = sresultList.get(scurrentrow).get("spart");
+row["spart_t"] = sresultList.get(scurrentrow).get("spart_t");
+row["band"] = sresultList.get(scurrentrow).get("band");
+row["dgers"] = sresultList.get(scurrentrow).get("dger");
+row["text2"] = sresultList.get(scurrentrow).get("text2");
+row["color1"] = sresultList.get(scurrentrow).get("color1");
+row["color1_t"] = sresultList.get(scurrentrow).get("color1_t");
+row["color2"] = sresultList.get(scurrentrow).get("color2");
+row["color2_t"] = sresultList.get(scurrentrow).get("color2_t");
+row["color3"] = sresultList.get(scurrentrow).get("color3");
+row["color3_t"] = sresultList.get(scurrentrow).get("color3_t");
+row["color4"] = sresultList.get(scurrentrow).get("color4");
+row["color4_t"] = sresultList.get(scurrentrow).get("color4_t");
+scurrentrow++;
+return true;]]></method>
+            <method name="close"><![CDATA[sresultList=null;]]></method>
+        </script-data-set>
+    </data-sets>
+    <styles>
+        <style name="report" id="110">
+            <property name="fontFamily">sans-serif</property>
+            <property name="fontSize">10pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="type">a4</property>
+            <property name="topMargin">0.25in</property>
+            <property name="leftMargin">0.25in</property>
+            <property name="bottomMargin">0.25in</property>
+            <property name="rightMargin">0.25in</property>
+            <property name="headerHeight">0.5in</property>
+            <page-header>
+                <grid id="246">
+                    <property name="verticalAlign">middle</property>
+                    <property name="width">7.791666666666667in</property>
+                    <column id="247">
+                        <property name="width">1.7916666666666667in</property>
+                    </column>
+                    <column id="248">
+                        <property name="width">4.270833333333333in</property>
+                    </column>
+                    <column id="249">
+                        <property name="width">0.8645833333333334in</property>
+                    </column>
+                    <column id="250">
+                        <property name="width">0.8541666666666666in</property>
+                    </column>
+                    <row id="251">
+                        <cell id="252">
+                            <property name="verticalAlign">middle</property>
+                            <text id="256">
+                                <property name="fontSize">12pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="paddingTop">8pt</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[EPO Fashion Co.,Ltd.]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="253">
+                            <property name="verticalAlign">middle</property>
+                            <text id="257">
+                                <property name="fontFamily">"楷体"</property>
+                                <property name="fontSize">18pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[广州爱帛服饰有限公司]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="254">
+                            <property name="verticalAlign">middle</property>
+                            <text id="258">
+                                <property name="fontFamily">"宋体"</property>
+                                <property name="paddingTop">8pt</property>
+                                <property name="textAlign">right</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[打印日期：]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="255">
+                            <property name="verticalAlign">bottom</property>
+                            <text id="1175">
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<value-of>
+ today = new Date();
+     year = today.getFullYear();
+     month = today.getMonth() + 1;
+     day = today.getDate();
+ day = year+"-"+month+"-"+day;
+</value-of>]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table id="163">
+            <property name="width">100%</property>
+            <property name="dataSet">Data Set</property>
+            <property name="refTemplateParameter">NewTemplateParameterDefinition2</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">style</property>
+                    <text-property name="displayName">style</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["style"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">size_t</property>
+                    <text-property name="displayName">size_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["size_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">spart</property>
+                    <text-property name="displayName">spart</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["spart"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">band</property>
+                    <text-property name="displayName">band</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["band"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">spart_t</property>
+                    <text-property name="displayName">spart_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["spart_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color1_t</property>
+                    <text-property name="displayName">color1_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color1_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color2</property>
+                    <text-property name="displayName">color2</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color2_t</property>
+                    <text-property name="displayName">color2_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color2_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color3_t</property>
+                    <text-property name="displayName">color3_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color3_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color3</property>
+                    <text-property name="displayName">color3</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color3"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color4_t</property>
+                    <text-property name="displayName">color4_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color4_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color4</property>
+                    <text-property name="displayName">color4</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color4"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color1</property>
+                    <text-property name="displayName">color1</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icolor1_t</property>
+                    <text-property name="displayName">icolor1_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["icolor1_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icolor1</property>
+                    <text-property name="displayName">icolor1</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["icolor1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icolor2_t</property>
+                    <text-property name="displayName">icolor2_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["icolor2_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icolor3_t</property>
+                    <text-property name="displayName">icolor3_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["icolor3_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icolor3</property>
+                    <text-property name="displayName">icolor3</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["icolor3"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icolor4_t</property>
+                    <text-property name="displayName">icolor4_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["icolor4_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icolor4</property>
+                    <text-property name="displayName">icolor4</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["icolor4"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ebort</property>
+                    <text-property name="displayName">ebort</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ebort"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">idnrk</property>
+                    <text-property name="displayName">idnrk</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["idnrk"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">potx2</property>
+                    <text-property name="displayName">potx2</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["potx2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">uptxt</property>
+                    <text-property name="displayName">uptxt</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["uptxt"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">text2</property>
+                    <text-property name="displayName">text2</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["text2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">style_t</property>
+                    <text-property name="displayName">style_t</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["style_t"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">itmno</property>
+                    <text-property name="displayName">itmno</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["itmno"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">keyno</property>
+                    <text-property name="displayName">keyno</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["keyno"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">dgers</property>
+                    <text-property name="displayName">dgers</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["dgers"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">spec</property>
+                    <text-property name="displayName">spec</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["spec"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">size</property>
+                    <expression name="expression" type="javascript">dataSetRow["size"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">icolor2</property>
+                    <expression name="expression" type="javascript">dataSetRow["icolor2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">pic_url</property>
+                    <expression name="expression" type="javascript">dataSetRow["pic_url"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <property name="pageBreakInterval">50</property>
+            <column id="187">
+                <property name="width">0.28125in</property>
+            </column>
+            <column id="188">
+                <property name="width">0.9583333333333334in</property>
+            </column>
+            <column id="189">
+                <property name="width">0.7708333333333334in</property>
+            </column>
+            <column id="502">
+                <property name="width">1.5208333333333333in</property>
+            </column>
+            <column id="513">
+                <property name="width">1.6666666666666667in</property>
+            </column>
+            <column id="535">
+                <property name="width">1.3020833333333333in</property>
+            </column>
+            <column id="562">
+                <property name="width">1.2395833333333333in</property>
+            </column>
+            <group id="1098">
+                <property name="groupName">g1</property>
+                <expression name="keyExpr" type="javascript">row["keyno"]</expression>
+                <structure name="toc">
+                    <expression name="expressionValue" type="javascript">row["keyno"]</expression>
+                </structure>
+                <property name="hideDetail">false</property>
+                <property name="pageBreakBefore">always-excluding-first</property>
+                <list-property name="sort">
+                    <structure>
+                        <expression name="key" type="javascript">row["itmno"]</expression>
+                        <property name="direction">asc</property>
+                        <property name="strength">-1</property>
+                    </structure>
+                </list-property>
+                <header>
+                    <row id="1132">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="height">9mm</property>
+                        <cell id="1133">
+                            <property name="colSpan">3</property>
+                            <property name="rowSpan">4</property>
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="textAlign">center</property>
+                            <property name="verticalAlign">middle</property>
+                            <image id="1190">
+                                <property name="eventHandlerClass">com.epo.report.event.Birt07ImageEvent</property>
+                                <property name="height">30mm</property>
+                                <property name="width">30mm</property>
+                                <method name="onCreate"><![CDATA[this.altText="";]]></method>
+                                <property name="source">url</property>
+                                <expression name="uri" type="javascript">row["pic_url"]</expression>
+                            </image>
+                        </cell>
+                        <cell id="1136">
+                            <property name="colSpan">4</property>
+                            <property name="rowSpan">1</property>
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="textAlign">center</property>
+                            <property name="verticalAlign">middle</property>
+                            <label id="1140">
+                                <property name="fontSize">12pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="textAlign">center</property>
+                                <text-property name="text">辅料搭配卡</text-property>
+                            </label>
+                        </cell>
+                    </row>
+                    <row id="1116">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="height">10.847916666666666mm</property>
+                        <cell id="1120">
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="verticalAlign">middle</property>
+                            <text id="1141">
+                                <property name="fontWeight">bold</property>
+                                <property name="textAlign">left</property>
+                                <property name="display">inline</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[款号：]]></text-property>
+                            </text>
+                            <data id="1142">
+                                <property name="textAlign">left</property>
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">style</property>
+                            </data>
+                        </cell>
+                        <cell id="1122">
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="verticalAlign">middle</property>
+                            <label id="900">
+                                <property name="fontWeight">bold</property>
+                                <property name="textAlign">left</property>
+                                <property name="display">inline</property>
+                                <text-property name="text">款式：</text-property>
+                            </label>
+                            <data id="978">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">style_t</property>
+                            </data>
+                        </cell>
+                    </row>
+                    <row id="1124">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="height">8.466666666666667mm</property>
+                        <cell id="1128">
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="verticalAlign">middle</property>
+                            <label id="901">
+                                <property name="fontWeight">bold</property>
+                                <property name="textAlign">left</property>
+                                <property name="display">inline</property>
+                                <text-property name="text">品牌：</text-property>
+                            </label>
+                            <data id="979">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">spart_t</property>
+                            </data>
+                        </cell>
+                        <cell id="1130">
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="verticalAlign">middle</property>
+                            <label id="902">
+                                <property name="fontWeight">bold</property>
+                                <property name="textAlign">left</property>
+                                <property name="display">inline</property>
+                                <text-property name="text">波段：</text-property>
+                            </label>
+                            <data id="980">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">band</property>
+                            </data>
+                        </cell>
+                    </row>
+                    <row id="1099">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="height">6mm</property>
+                        <cell id="1103">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="textAlign">center</property>
+                            <data id="908">
+                                <property name="fontWeight">normal</property>
+                                <property name="textAlign">left</property>
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">color1_t</property>
+                            </data>
+                            <data id="955">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">color1</property>
+                            </data>
+                        </cell>
+                        <cell id="1104">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="textAlign">center</property>
+                            <data id="909">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">color2_t</property>
+                            </data>
+                            <data id="910">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">color2</property>
+                            </data>
+                        </cell>
+                        <cell id="1105">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="textAlign">center</property>
+                            <data id="911">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">color3_t</property>
+                            </data>
+                            <data id="912">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">color3</property>
+                            </data>
+                        </cell>
+                        <cell id="1106">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <property name="textAlign">center</property>
+                            <data id="913">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">color4_t</property>
+                            </data>
+                            <data id="914">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">color4</property>
+                            </data>
+                        </cell>
+                    </row>
+                </header>
+                <footer>
+                    <row id="1107">
+                        <property name="fontFamily">"宋体"</property>
+                        <cell id="1108">
+                            <property name="colSpan">3</property>
+                            <property name="rowSpan">1</property>
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <text id="316">
+                                <property name="display">inline</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[设计师：]]></text-property>
+                            </text>
+                            <data id="1070">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">dgers</property>
+                            </data>
+                        </cell>
+                        <cell id="1111">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <text id="317">
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[设计经理：]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1112">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <text id="318">
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[物控主管：]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1113">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <text id="319">
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[跟单主管：]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1114">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <text id="320">
+                                <property name="display">inline</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[跟单：]]></text-property>
+                            </text>
+                            <data id="977">
+                                <property name="display">inline</property>
+                                <property name="resultSetColumn">text2</property>
+                            </data>
+                        </cell>
+                    </row>
+                </footer>
+            </group>
+            <detail>
+                <row id="173">
+                    <property name="fontFamily">"宋体"</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <cell id="174">
+                        <property name="colSpan">1</property>
+                        <property name="rowSpan">1</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                        <text id="906">
+                            <property name="textAlign">center</property>
+                            <property name="display">inline</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[编
+号]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="1184">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="973">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">idnrk</property>
+                        </data>
+                        <text id="1187">
+                            <property name="display">inline</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[  尺码:]]></text-property>
+                        </text>
+                        <data id="1188">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">size_t</property>
+                        </data>
+                    </cell>
+                    <cell id="893">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                        <data id="956">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">icolor1_t</property>
+                        </data>
+                        <data id="957">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">icolor1</property>
+                        </data>
+                    </cell>
+                    <cell id="894">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                        <data id="958">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">icolor2_t</property>
+                        </data>
+                        <data id="1191">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">icolor2</property>
+                        </data>
+                    </cell>
+                    <cell id="895">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="960">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">icolor3_t</property>
+                        </data>
+                        <data id="961">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">icolor3</property>
+                        </data>
+                    </cell>
+                    <cell id="896">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="962">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">icolor4_t</property>
+                        </data>
+                        <data id="963">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">icolor4</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="1176">
+                    <property name="fontFamily">"宋体"</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <cell id="1177">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                        <text id="1186">
+                            <property name="textAlign">center</property>
+                            <property name="display">inline</property>
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[规
+格]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="1178">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1189">
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">spec</property>
+                        </data>
+                    </cell>
+                    <cell id="1180">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                    </cell>
+                    <cell id="1181">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                    </cell>
+                    <cell id="1182">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                    </cell>
+                    <cell id="1183">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                    </cell>
+                </row>
+                <row id="875">
+                    <property name="fontFamily">"宋体"</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <property name="height">1.1979166666666667in</property>
+                    <cell id="884">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">2</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="verticalAlign">middle</property>
+                        <label id="1172">
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">center</property>
+                            <text-property name="text">(实样)</text-property>
+                        </label>
+                    </cell>
+                    <cell id="879">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                        <property name="verticalAlign">middle</property>
+                        <label id="964">
+                            <property name="fontSize">9pt</property>
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">色样/实体</text-property>
+                        </label>
+                    </cell>
+                    <cell id="880">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                        <property name="verticalAlign">middle</property>
+                        <label id="968">
+                            <property name="fontSize">9pt</property>
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">色样/实体</text-property>
+                        </label>
+                    </cell>
+                    <cell id="881">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                        <property name="verticalAlign">middle</property>
+                        <label id="969">
+                            <property name="fontSize">9pt</property>
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">色样/实体</text-property>
+                        </label>
+                    </cell>
+                    <cell id="882">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="textAlign">center</property>
+                        <property name="verticalAlign">middle</property>
+                        <label id="970">
+                            <property name="fontSize">9pt</property>
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">色样/实体</text-property>
+                        </label>
+                    </cell>
+                </row>
+                <row id="867">
+                    <property name="fontFamily">"宋体"</property>
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">1px</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">1px</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">1px</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">1px</property>
+                    <cell id="871">
+                        <property name="colSpan">4</property>
+                        <property name="rowSpan">1</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <label id="976">
+                            <property name="display">inline</property>
+                            <text-property name="text">使用部位：</text-property>
+                        </label>
+                        <data id="975">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">uptxt</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+    </body>
+</report>

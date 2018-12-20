@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/grouped_listing.gif</property>
+    <property name="cheatSheet">org.eclipse.birt.report.designer.ui.cheatsheet.groupedlisting</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">96</property>
+    <data-sources>
+        <script-data-source name="Data Source" id="1299"/>
+    </data-sources>
+    <data-sets>
+        <script-data-set name="Data Set" id="1300">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">znumber</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">zzband</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">zzdger</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">ztext2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">kmatnr</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">kpic</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">kcolor</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">ebort</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">cidnrk</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">ccatwtb</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">ccolor</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">uptext</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">adesc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">bdesc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">cdesc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">ddesc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">edesc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">potx2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">zzlcolor</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">fdesc</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">znumber</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzband</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzdger</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ztext2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">kmatnr</property>
+                </structure>
+                <structure>
+                    <property name="columnName">kpic</property>
+                </structure>
+                <structure>
+                    <property name="columnName">kcolor</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ebort</property>
+                </structure>
+                <structure>
+                    <property name="columnName">cidnrk</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ccatwtb</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ccolor</property>
+                </structure>
+                <structure>
+                    <property name="columnName">uptext</property>
+                </structure>
+                <structure>
+                    <property name="columnName">adesc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">bdesc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">cdesc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ddesc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">edesc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">potx2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzlcolor</property>
+                </structure>
+                <structure>
+                    <property name="columnName">fdesc</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">znumber</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">zzband</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">zzdger</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">ztext2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">kmatnr</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">kpic</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">kcolor</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">ebort</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">cidnrk</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">ccatwtb</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">ccolor</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">uptext</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">adesc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">bdesc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">cdesc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">ddesc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">edesc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">potx2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">zzlcolor</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">fdesc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[importPackage(Packages.java.lang);
+rep=reportContext.getHttpServletRequest();
+sresultList = rep.getAttribute("data");
+stotalrows = sresultList.size();
+scurrentrow=0;]]></method>
+            <method name="fetch"><![CDATA[if(scurrentrow >= stotalrows){
+return false;
+}
+row["znumber"] = sresultList.get(scurrentrow).get("znumber");
+//System.out.println(row["znumber"]);
+row["zzband"] = sresultList.get(scurrentrow).get("zzband");
+row["zzdger"] = sresultList.get(scurrentrow).get("zzdger");
+row["ztext2"] = sresultList.get(scurrentrow).get("ztext2");
+row["kpic"] = sresultList.get(scurrentrow).get("kpic") ;
+row["uptext"] = sresultList.get(scurrentrow).get("uptext");
+row["ccatwtb"] = sresultList.get(scurrentrow).get("ccatwtb");
+
+row["adesc"] = sresultList.get(scurrentrow).get("adesc");
+//System.out.println(row["adsec"]);
+row["bdesc"] = sresultList.get(scurrentrow).get("bdesc");
+row["cdesc"] = sresultList.get(scurrentrow).get("cdesc");
+row["ddesc"] = sresultList.get(scurrentrow).get("ddesc");
+row["edesc"] = sresultList.get(scurrentrow).get("edesc");
+
+row["fdesc"] = sresultList.get(scurrentrow).get("fdesc");
+
+row["cidnrk"] = sresultList.get(scurrentrow).get("cidnrk");
+row["ebort"] = sresultList.get(scurrentrow).get("ebort");
+row["kmatnr"] =  sresultList.get(scurrentrow).get("kmatnr");
+
+row["ccolor"] = sresultList.get(scurrentrow).get("ccolor");
+row["kcolor"] = sresultList.get(scurrentrow).get("kcolor");
+row["potx2"] =  sresultList.get(scurrentrow).get("potx2");
+row["zzlcolor"] =  sresultList.get(scurrentrow).get("zzlcolor");
+scurrentrow++;
+return true;]]></method>
+            <method name="close"><![CDATA[sresultList=null;]]></method>
+        </script-data-set>
+    </data-sets>
+    <styles>
+        <style name="report" id="38">
+            <property name="fontFamily">sans-serif</property>
+            <property name="fontSize">10pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="type">custom</property>
+            <property name="topMargin">0in</property>
+            <property name="height">210mm</property>
+            <property name="width">297mm</property>
+            <property name="showHeaderOnFirst">true</property>
+            <page-footer>
+                <grid id="1279">
+                    <column id="1280"/>
+                    <column id="1281"/>
+                    <column id="1292">
+                        <property name="width">0in</property>
+                    </column>
+                    <column id="1294">
+                        <property name="width">0.2in</property>
+                    </column>
+                    <column id="1297">
+                        <property name="width">0.2in</property>
+                    </column>
+                    <column id="1282">
+                        <property name="width">0.2in</property>
+                    </column>
+                    <row id="1283">
+                        <property name="verticalAlign">bottom</property>
+                        <cell id="1284">
+                            <text id="1290">
+                                <property name="fontFamily">"宋体"</property>
+                                <property name="contentType">plain</property>
+                                <text-property name="content"><![CDATA[审核:]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1286">
+                            <text id="1287">
+                                <property name="fontFamily">"宋体"</property>
+                                <property name="contentType">plain</property>
+                                <text-property name="content"><![CDATA[审批:]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1291"/>
+                        <cell id="1293">
+                            <auto-text id="1295">
+                                <property name="type">page-number</property>
+                            </auto-text>
+                        </cell>
+                        <cell id="1296">
+                            <text id="1298">
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[/]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1288">
+                            <auto-text id="1289">
+                                <property name="type">total-page</property>
+                            </auto-text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table name="table1" id="13">
+            <property name="height">100%</property>
+            <property name="width">100%</property>
+            <property name="dataSet">Data Set</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">znumber</property>
+                    <text-property name="displayName">znumber</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["znumber"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzband</property>
+                    <text-property name="displayName">zzband</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzband"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzdger</property>
+                    <text-property name="displayName">zzdger</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzdger"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ztext2</property>
+                    <text-property name="displayName">ztext2</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ztext2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">kmatnr</property>
+                    <text-property name="displayName">kmatnr</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["kmatnr"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">kpic</property>
+                    <text-property name="displayName">kpic</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["kpic"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">kcolor</property>
+                    <text-property name="displayName">kcolor</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["kcolor"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ebort</property>
+                    <text-property name="displayName">ebort</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ebort"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">cidnrk</property>
+                    <text-property name="displayName">cidnrk</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["cidnrk"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ccatwtb</property>
+                    <text-property name="displayName">ccatwtb</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ccatwtb"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ccolor</property>
+                    <text-property name="displayName">ccolor</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ccolor"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">uptext</property>
+                    <text-property name="displayName">uptext</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["uptext"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">adesc</property>
+                    <text-property name="displayName">adesc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["adesc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">bdesc</property>
+                    <text-property name="displayName">bdesc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["bdesc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">cdesc</property>
+                    <text-property name="displayName">cdesc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["cdesc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ddesc</property>
+                    <text-property name="displayName">ddesc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ddesc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">edesc</property>
+                    <text-property name="displayName">edesc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["edesc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">Column Binding</property>
+                    <expression name="expression" type="javascript">BirtStr.left(dataSetRow["kmatnr"],4) +'面料打色资料'</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">title</property>
+                    <expression name="expression" type="javascript">BirtStr.left(dataSetRow["kmatnr"],5) +'面料打色资料'</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">potx2</property>
+                    <text-property name="displayName">potx2</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["potx2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">fdesc</property>
+                    <text-property name="displayName">fdesc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["fdesc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <property name="pageBreakInterval">50</property>
+            <column id="35">
+                <property name="width">12mm</property>
+            </column>
+            <column id="36"/>
+            <column id="37"/>
+            <column id="1330"/>
+            <column id="1190">
+                <property name="width">25mm</property>
+            </column>
+            <column id="1185">
+                <property name="textAlign">center</property>
+                <property name="width">18mm</property>
+            </column>
+            <column id="1210">
+                <property name="textAlign">center</property>
+            </column>
+            <column id="1195"/>
+            <column id="1260">
+                <property name="textAlign">center</property>
+                <property name="width">25mm</property>
+            </column>
+            <column id="1255"/>
+            <column id="1250">
+                <property name="width">10mm</property>
+            </column>
+            <column id="1240">
+                <property name="width">25mm</property>
+            </column>
+            <column id="1235">
+                <property name="suppressDuplicates">true</property>
+                <property name="width">18mm</property>
+            </column>
+            <column id="1230">
+                <property name="width">18mm</property>
+            </column>
+            <column id="1225">
+                <property name="width">18mm</property>
+            </column>
+            <column id="1220">
+                <property name="width">18mm</property>
+            </column>
+            <column id="1459">
+                <property name="width">18mm</property>
+            </column>
+            <column id="1455">
+                <property name="width">18mm</property>
+            </column>
+            <column id="1334">
+                <property name="width">18mm</property>
+            </column>
+            <group id="1468">
+                <property name="groupName">g1</property>
+                <expression name="keyExpr" type="javascript">row["znumber"]</expression>
+                <structure name="toc">
+                    <expression name="expressionValue" type="javascript">row["znumber"]</expression>
+                </structure>
+                <property name="hideDetail">false</property>
+                <property name="pageBreakBefore">always-excluding-first</property>
+                <header>
+                    <row id="1592">
+                        <property name="verticalAlign">middle</property>
+                        <cell id="1593">
+                            <property name="colSpan">16</property>
+                            <property name="rowSpan">1</property>
+                            <data id="1442">
+                                <property name="fontSize">18pt</property>
+                                <property name="resultSetColumn">title</property>
+                            </data>
+                        </cell>
+                        <cell id="1609">
+                            <text id="1439">
+                                <property name="paddingTop">8pt</property>
+                                <property name="textAlign">right</property>
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[打印日期：]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1610">
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <text id="1440">
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<value-of>today = new Date();year = today.getFullYear();month = today.getMonth() + 1;day = today.getDate();day = year+"-"+month+"-"+day;</value-of>]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
+                    <row id="1469">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="verticalAlign">middle</property>
+                        <cell id="1470">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <label id="1261">
+                                <property name="textAlign">center</property>
+                                <text-property name="text">序号</text-property>
+                            </label>
+                        </cell>
+                        <cell id="1471">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1266">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[波
+段]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1472">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1267">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[设
+计
+师]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1473">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1268">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[跟
+单
+员]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1474">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <label id="1262">
+                                <text-property name="text">款号</text-property>
+                            </label>
+                        </cell>
+                        <cell id="1475">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <label id="1263">
+                                <text-property name="text">小图</text-property>
+                            </label>
+                        </cell>
+                        <cell id="1476">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1265">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[成
+衣
+颜
+色]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1477">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1269">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[面
+料
+序
+号]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1478">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1270">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[
+编号]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1479">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1271">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[物
+料
+颜
+色]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1480">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1272">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[物料
+色号]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1481">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1274">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[用料部位]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1482">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1275">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[A(填中文颜色)]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1483">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1276">
+                                <property name="textAlign">left</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[B(填中文颜色)]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1484">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1277">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[C(填中文颜色)]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1485">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1278">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[D(填中文颜色)]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1486">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1463">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[E(填中文颜色)]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1487">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1464">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[F(填中文颜色)]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1488">
+                            <property name="backgroundColor">#D7D7D7</property>
+                            <property name="borderBottomStyle">dotted</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">dotted</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">dotted</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">dotted</property>
+                            <property name="borderTopWidth">thin</property>
+                            <text id="1335">
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[排料/配色备注]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
+                </header>
+            </group>
+            <detail>
+                <row id="27">
+                    <property name="fontFamily">"宋体"</property>
+                    <property name="fontSize">9pt</property>
+                    <property name="textAlign">center</property>
+                    <property name="verticalAlign">middle</property>
+                    <property name="height">18mm</property>
+                    <cell id="28">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1420">
+                            <property name="resultSetColumn">znumber</property>
+                        </data>
+                    </cell>
+                    <cell id="29">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1305">
+                            <property name="resultSetColumn">zzband</property>
+                        </data>
+                    </cell>
+                    <cell id="30">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">center</property>
+                        <data id="1306">
+                            <property name="resultSetColumn">zzdger</property>
+                        </data>
+                    </cell>
+                    <cell id="1328">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1307">
+                            <property name="resultSetColumn">ztext2</property>
+                        </data>
+                    </cell>
+                    <cell id="1188">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1302">
+                            <property name="resultSetColumn">kmatnr</property>
+                        </data>
+                    </cell>
+                    <cell id="1183">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <image id="1303">
+                            <property name="eventHandlerClass">com.epo.report.event.Birt07ImageEvent</property>
+                            <property name="height">15mm</property>
+                            <property name="width">15mm</property>
+                            <method name="onCreate"><![CDATA[this.altText="";]]></method>
+                            <property name="source">url</property>
+                            <expression name="uri" type="javascript">row["kpic"]</expression>
+                        </image>
+                    </cell>
+                    <cell id="1208">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1336">
+                            <property name="resultSetColumn">kcolor</property>
+                        </data>
+                    </cell>
+                    <cell id="1193">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1337">
+                            <property name="resultSetColumn">ebort</property>
+                        </data>
+                    </cell>
+                    <cell id="1258">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1338">
+                            <property name="resultSetColumn">cidnrk</property>
+                        </data>
+                    </cell>
+                    <cell id="1253">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1310">
+                            <property name="resultSetColumn">ccatwtb</property>
+                        </data>
+                    </cell>
+                    <cell id="1248">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1339">
+                            <property name="resultSetColumn">ccolor</property>
+                        </data>
+                    </cell>
+                    <cell id="1238">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1313">
+                            <property name="resultSetColumn">uptext</property>
+                        </data>
+                    </cell>
+                    <cell id="1233">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <property name="whiteSpace">normal</property>
+                        <data id="1340">
+                            <property name="resultSetColumn">adesc</property>
+                        </data>
+                    </cell>
+                    <cell id="1228">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <data id="1341">
+                            <property name="resultSetColumn">bdesc</property>
+                        </data>
+                    </cell>
+                    <cell id="1223">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <data id="1342">
+                            <property name="resultSetColumn">cdesc</property>
+                        </data>
+                    </cell>
+                    <cell id="1218">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <data id="1343">
+                            <property name="resultSetColumn">ddesc</property>
+                        </data>
+                    </cell>
+                    <cell id="1458">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <data id="1467">
+                            <property name="resultSetColumn">edesc</property>
+                        </data>
+                    </cell>
+                    <cell id="1454">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <data id="1466">
+                            <property name="resultSetColumn">fdesc</property>
+                        </data>
+                    </cell>
+                    <cell id="1332">
+                        <property name="borderBottomStyle">dotted</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">dotted</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">dotted</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">dotted</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1443">
+                            <property name="resultSetColumn">potx2</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+    </body>
+</report>
