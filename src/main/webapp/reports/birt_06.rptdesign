@@ -337,6 +337,11 @@
                     <property name="name">zjenolr_cur</property>
                     <property name="dataType">string</property>
                 </structure>
+                <structure>
+                    <property name="position">66</property>
+                    <property name="name">zbiztype</property>
+                    <property name="dataType">string</property>
+                </structure>
             </list-property>
             <list-property name="columnHints">
                 <structure>
@@ -533,6 +538,9 @@
                 </structure>
                 <structure>
                     <property name="columnName">zjenolr_cur</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zbiztype</property>
                 </structure>
             </list-property>
             <structure name="cachedMetaData">
@@ -862,6 +870,11 @@
                         <property name="name">zjenolr_cur</property>
                         <property name="dataType">string</property>
                     </structure>
+                    <structure>
+                        <property name="position">66</property>
+                        <property name="name">zbiztype</property>
+                        <property name="dataType">string</property>
+                    </structure>
                 </list-property>
             </structure>
             <property name="dataSource">Data Source</property>
@@ -951,6 +964,9 @@ row["banci"] =   sresultList.get(scurrentrow).get("banci");
 
 row["zcb_cur_h"] =   sresultList.get(scurrentrow).get("zcb_cur_h");
 row["zjenolr_cur"] =   sresultList.get(scurrentrow).get("zjenolr_cur");
+
+row["zbiztype"] =   sresultList.get(scurrentrow).get("zbiztype");
+
 scurrentrow++;
 return true;]]></method>
             <method name="close"><![CDATA[sresultList = null;]]></method>
@@ -1331,6 +1347,12 @@ return true;]]></method>
                     <property name="dataType">decimal</property>
                     <property name="allowExport">true</property>
                 </structure>
+                <structure>
+                    <property name="name">zbiztype</property>
+                    <text-property name="displayName">zbiztype</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zbiztype"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
             </list-property>
             <list-property name="sort">
                 <structure>
@@ -1589,7 +1611,7 @@ return true;]]></method>
                             </data>
                         </cell>
                         <cell id="1232">
-                            <property name="colSpan">6</property>
+                            <property name="colSpan">1</property>
                             <property name="rowSpan">1</property>
                             <property name="borderBottomStyle">solid</property>
                             <property name="borderBottomWidth">1px</property>
@@ -1604,9 +1626,49 @@ return true;]]></method>
                                 <property name="display">inline</property>
                                 <text-property name="text">订单数量：</text-property>
                             </label>
+                        </cell>
+                        <cell id="1619">
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
                             <data id="757">
                                 <property name="display">inline</property>
                                 <property name="resultSetColumn">zmenge_h</property>
+                            </data>
+                        </cell>
+                        <cell id="1621">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <label id="1624">
+                                <text-property name="text">业务类型</text-property>
+                            </label>
+                        </cell>
+                        <cell id="1622">
+                            <property name="colSpan">2</property>
+                            <property name="rowSpan">1</property>
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">1px</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <data id="1625">
+                                <property name="resultSetColumn">zbiztype</property>
                             </data>
                         </cell>
                     </row>

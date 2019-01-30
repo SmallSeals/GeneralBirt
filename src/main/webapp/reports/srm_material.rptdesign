@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="layoutPreference">fixed layout</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">120</property>
+    <data-sources>
+        <script-data-source name="Data Source" id="4"/>
+    </data-sources>
+    <data-sets>
+        <script-data-set name="header_size" id="5">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">zzband</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">po_number</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">brand_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">satnr</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">common_name</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">zsize_1</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">zsize_2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">zsize_3</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">zsize_4</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">zsize_5</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">zsize_6</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">zsize_7</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">color_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">zsize_1_quantity</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">zsize_2_quantity</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">zsize_3_quantity</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">zsize_4_quantity</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">zsize_5_quantity</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">zsize_6_quantity</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">zsize_7_quantity</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">21</property>
+                    <property name="name">zsize_all_quantity</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">zzband</property>
+                </structure>
+                <structure>
+                    <property name="columnName">po_number</property>
+                </structure>
+                <structure>
+                    <property name="columnName">brand_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">satnr</property>
+                </structure>
+                <structure>
+                    <property name="columnName">common_name</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_5</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_6</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_7</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_1_quantity</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_2_quantity</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_3_quantity</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_4_quantity</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_5_quantity</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_6_quantity</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_7_quantity</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zsize_all_quantity</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">zzband</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">po_number</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">brand_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">satnr</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">common_name</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">zsize_1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">zsize_2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">zsize_3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">zsize_4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">zsize_5</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">zsize_6</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">zsize_7</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">color_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">zsize_1_quantity</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">zsize_2_quantity</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">zsize_3_quantity</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">zsize_4_quantity</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">zsize_5_quantity</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">zsize_6_quantity</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">zsize_7_quantity</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">21</property>
+                        <property name="name">zsize_all_quantity</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[importPackage(Packages.java.lang);
+rep=reportContext.getHttpServletRequest();
+header = rep.getAttribute("header");
+
+
+//System.out.println("header:"+header);
+headerJsonObject = new Packages.com.alibaba.fastjson.JSONObject.parseObject(header); 
+//System.out.println("headerJsonObject:"+headerJsonObject);
+
+size = rep.getAttribute("szie");
+sizeJsonArray = new Packages.com.alibaba.fastjson.JSONObject.parseArray(size); 
+total = sizeJsonArray.size();
+
+scurrentrow=0;
+]]></method>
+            <method name="fetch"><![CDATA[/**
+if(scurrentrow ==0){
+	row["brand_desc"] = headerJsonObject.get("brand_desc");//品牌
+	row["common_name"] = headerJsonObject.get("common_name");//品名
+	row["po_number"] = headerJsonObject.get("po_number");//采购订单
+	row["satnr"] = headerJsonObject.get("satnr");//成衣款号
+	row["zsize_1"] = headerJsonObject.get("zsize_1");//尺码1
+	row["zsize_2"] = headerJsonObject.get("zsize_2");//尺码2
+	row["zsize_3"] = headerJsonObject.get("zsize_3");//尺码3
+	row["zsize_4"] = headerJsonObject.get("zsize_4");//尺码4
+	row["zsize_5"] = headerJsonObject.get("zsize_5");//尺码5
+	row["zsize_6"] = headerJsonObject.get("zsize_6");//尺码6
+	row["zsize_7"] = headerJsonObject.get("zsize_7");//尺码7
+	row["zzband"] = headerJsonObject.get("zzband");//波段
+	scurrentrow++;
+	return true;
+}
+return false;
+**/
+
+
+if(scurrentrow < total){
+	sizeJsonObject = sizeJsonArray.getJSONObject(scurrentrow);
+	
+	//if(scurrentrow == 0){
+		row["brand_desc"] = headerJsonObject.get("brand_desc");//品牌
+		row["common_name"] = headerJsonObject.get("common_name");//品名
+		row["po_number"] = headerJsonObject.get("po_number");//采购订单
+		row["satnr"] = headerJsonObject.get("satnr");//成衣款号
+		row["zsize_1"] = headerJsonObject.get("zsize_1");//尺码1
+		row["zsize_2"] = headerJsonObject.get("zsize_2");//尺码2
+		row["zsize_3"] = headerJsonObject.get("zsize_3");//尺码3
+		row["zsize_4"] = headerJsonObject.get("zsize_4");//尺码4
+		row["zsize_5"] = headerJsonObject.get("zsize_5");//尺码5
+		row["zsize_6"] = headerJsonObject.get("zsize_6");//尺码6
+		row["zsize_7"] = headerJsonObject.get("zsize_7");//尺码7
+		row["zzband"] = headerJsonObject.get("zzband");//波段
+	//}
+	
+	
+	
+	row["color_desc"] = sizeJsonObject.get("color_desc");//颜色（色号）
+	row["zsize_1_quantity"] = sizeJsonObject.get("zsize_1_quantity");//尺码1 数量
+	row["zsize_2_quantity"] = sizeJsonObject.get("zsize_2_quantity");//尺码1 数量
+	row["zsize_3_quantity"] = sizeJsonObject.get("zsize_3_quantity");//尺码1 数量
+	row["zsize_4_quantity"] = sizeJsonObject.get("zsize_4_quantity");//尺码1 数量
+	row["zsize_5_quantity"] = sizeJsonObject.get("zsize_5_quantity");//尺码1 数量
+	row["zsize_6_quantity"] = sizeJsonObject.get("zsize_6_quantity");//尺码1 数量
+	row["zsize_7_quantity"] = sizeJsonObject.get("zsize_7_quantity");//尺码1 数量
+	row["zsize_all_quantity"] = sizeJsonObject.get("zsize_all_quantity");//最后合计列
+	scurrentrow++;
+	return true;
+}
+return false;
+
+
+]]></method>
+            <method name="close"><![CDATA[headerJsonObject = null;
+sizeJsonObject = null;]]></method>
+        </script-data-set>
+        <script-data-set name="items" id="7">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">color_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">mtart_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">item_code</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">ebort</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">item_specs</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">zzcomp</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">material_color</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">size1</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">uptxt</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">zzwidth</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">upmng</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">zzdepl</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">primary_uom</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">quantity_all</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">color_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">mtart_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">item_code</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ebort</property>
+                </structure>
+                <structure>
+                    <property name="columnName">item_specs</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzcomp</property>
+                </structure>
+                <structure>
+                    <property name="columnName">material_color</property>
+                </structure>
+                <structure>
+                    <property name="columnName">size1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">uptxt</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzwidth</property>
+                </structure>
+                <structure>
+                    <property name="columnName">upmng</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzdepl</property>
+                </structure>
+                <structure>
+                    <property name="columnName">primary_uom</property>
+                </structure>
+                <structure>
+                    <property name="columnName">quantity_all</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">color_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">mtart_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">item_code</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">ebort</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">item_specs</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">zzcomp</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">material_color</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">size1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">uptxt</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">zzwidth</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">upmng</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">zzdepl</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">primary_uom</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">quantity_all</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[importPackage(Packages.java.lang);
+rep=reportContext.getHttpServletRequest();
+
+
+
+items = rep.getAttribute("items");
+itemsJsonArray = new Packages.com.alibaba.fastjson.JSONObject.parseArray(items); 
+total = itemsJsonArray.size();
+
+scurrentrow=0;]]></method>
+            <method name="fetch"><![CDATA[
+if(scurrentrow < total){
+	itemsJsonObject = itemsJsonArray.getJSONObject(scurrentrow);
+	row["color_desc"] = itemsJsonObject.get("color_desc");//颜色（色号）
+	row["mtart_desc"] = itemsJsonObject.get("mtart_desc");//物料类型
+	row["item_code"] = itemsJsonObject.get("item_code");//物料编码
+	row["ebort"] = itemsJsonObject.get("ebort");//主配料
+	row["item_specs"] = itemsJsonObject.get("item_specs");//物料规格
+	row["zzcomp"] = itemsJsonObject.get("zzcomp");//成分
+	row["material_color"] = itemsJsonObject.get("material_color");//物料颜色
+	row["size1"] = itemsJsonObject.get("size1");//物料尺码
+	row["uptxt"] = itemsJsonObject.get("uptxt");//用料部位
+	row["zzwidth"] = itemsJsonObject.get("zzwidth");//幅宽
+	row["upmng"] = itemsJsonObject.get("upmng");//用量
+	row["zzdepl"] = itemsJsonObject.get("zzdepl");//损耗
+	row["primary_uom"] = itemsJsonObject.get("primary_uom");//单位
+	row["quantity_all"] = itemsJsonObject.get("quantity_all");//应发数量
+	
+	scurrentrow++;
+	return true;
+}
+return false;
+
+
+]]></method>
+        </script-data-set>
+    </data-sets>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="type">a4</property>
+            <page-header>
+                <grid id="1176">
+                    <column id="1187">
+                        <property name="width">50mm</property>
+                    </column>
+                    <column id="1177">
+                        <property name="width">100mm</property>
+                    </column>
+                    <column id="1178"/>
+                    <column id="1179"/>
+                    <row id="1180">
+                        <property name="verticalAlign">bottom</property>
+                        <cell id="1186">
+                            <text id="256">
+                                <property name="fontFamily">"宋体"</property>
+                                <property name="fontSize">12pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="paddingTop">8pt</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[EPO Fashion Co.,Ltd.]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1181">
+                            <text id="1184">
+                                <property name="fontFamily">"宋体"</property>
+                                <property name="fontSize">18pt</property>
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[广州爱帛服饰有限公司]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="1182">
+                            <property name="verticalAlign">bottom</property>
+                            <label id="1185">
+                                <property name="fontFamily">"宋体"</property>
+                                <property name="textAlign">right</property>
+                                <text-property name="text">打印日期：</text-property>
+                            </label>
+                        </cell>
+                        <cell id="1183">
+                            <text id="35">
+                                <property name="style">NewStyle</property>
+                                <property name="fontSize">small</property>
+                                <property name="marginTop">0pt</property>
+                                <property name="paddingTop">1pt</property>
+                                <property name="textAlign">left</property>
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<value-of>
+ today = new Date();
+     year = today.getFullYear();
+     month = today.getMonth() + 1;
+     day = today.getDate();
+ day = year+"-"+month+"-"+day;
+</value-of>]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+            <page-footer>
+                <grid id="48">
+                    <property name="height">0.46875in</property>
+                    <property name="width">100%</property>
+                    <column id="49"/>
+                    <row id="50">
+                        <property name="height">0.46875in</property>
+                        <cell id="51">
+                            <property name="fontFamily">"宋体"</property>
+                            <property name="textAlign">center</property>
+                            <property name="verticalAlign">bottom</property>
+                            <grid id="52">
+                                <property name="fontFamily">"楷体"</property>
+                                <property name="height">0.2395833333in</property>
+                                <property name="width">2.6458333333in</property>
+                                <column id="53">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="textAlign">center</property>
+                                    <property name="verticalAlign">bottom</property>
+                                    <property name="width">5mm</property>
+                                </column>
+                                <column id="54">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="marginLeft">0pt</property>
+                                    <property name="textAlign">center</property>
+                                    <property name="verticalAlign">bottom</property>
+                                    <property name="width">5mm</property>
+                                </column>
+                                <column id="55">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="textAlign">center</property>
+                                    <property name="verticalAlign">bottom</property>
+                                    <property name="width">5mm</property>
+                                </column>
+                                <column id="56">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="textAlign">center</property>
+                                    <property name="verticalAlign">bottom</property>
+                                    <property name="width">5mm</property>
+                                </column>
+                                <column id="57">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="marginLeft">0pt</property>
+                                    <property name="textAlign">center</property>
+                                    <property name="verticalAlign">bottom</property>
+                                    <property name="width">5mm</property>
+                                </column>
+                                <column id="58">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="textAlign">center</property>
+                                    <property name="verticalAlign">bottom</property>
+                                    <property name="width">5mm</property>
+                                </column>
+                                <row id="59">
+                                    <cell id="60">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="verticalAlign">bottom</property>
+                                        <label id="68">
+                                            <text-property name="text">第</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="61">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="paddingTop">3pt</property>
+                                        <property name="verticalAlign">bottom</property>
+                                        <auto-text name="ss" id="69">
+                                            <list-property name="userProperties">
+                                                <structure>
+                                                    <property name="name">xff</property>
+                                                    <property name="type">string</property>
+                                                    <property name="isVisible">true</property>
+                                                </structure>
+                                            </list-property>
+                                            <property name="backgroundAttachment">scroll</property>
+                                            <property name="fontSize">medium</property>
+                                            <property name="textAlign">left</property>
+                                            <property name="display">block</property>
+                                            <property name="type">page-number</property>
+                                        </auto-text>
+                                    </cell>
+                                    <cell id="62">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="textAlign">left</property>
+                                        <property name="verticalAlign">bottom</property>
+                                        <label id="73">
+                                            <text-property name="text">页 </text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="63">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="textAlign">center</property>
+                                        <property name="verticalAlign">bottom</property>
+                                        <label id="70">
+                                            <text-property name="text">共</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="64">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="paddingTop">2pt</property>
+                                        <property name="paddingLeft">5pt</property>
+                                        <property name="textAlign">right</property>
+                                        <property name="orphans">2</property>
+                                        <property name="verticalAlign">bottom</property>
+                                        <auto-text id="620">
+                                            <property name="fontSize">medium</property>
+                                            <property name="paddingTop">1pt</property>
+                                            <property name="paddingLeft">5pt</property>
+                                            <property name="textAlign">center</property>
+                                            <property name="type">total-page</property>
+                                        </auto-text>
+                                    </cell>
+                                    <cell id="65">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="paddingTop">1pt</property>
+                                        <property name="paddingLeft">0pt</property>
+                                        <property name="paddingBottom">1pt</property>
+                                        <property name="paddingRight">1pt</property>
+                                        <property name="textAlign">left</property>
+                                        <property name="verticalAlign">bottom</property>
+                                        <label id="72">
+                                            <text-property name="text">页 </text-property>
+                                        </label>
+                                    </cell>
+                                </row>
+                            </grid>
+                        </cell>
+                    </row>
+                </grid>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table id="1282">
+            <property name="fontFamily">"宋体"</property>
+            <property name="dataSet">header_size</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">zzband</property>
+                    <text-property name="displayName">zzband</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzband"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">po_number</property>
+                    <text-property name="displayName">po_number</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["po_number"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">brand_desc</property>
+                    <text-property name="displayName">brand_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["brand_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">satnr</property>
+                    <text-property name="displayName">satnr</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["satnr"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">common_name</property>
+                    <text-property name="displayName">common_name</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["common_name"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_1</property>
+                    <text-property name="displayName">zsize_1</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_2</property>
+                    <text-property name="displayName">zsize_2</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_3</property>
+                    <text-property name="displayName">zsize_3</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_3"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_4</property>
+                    <text-property name="displayName">zsize_4</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_4"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_5</property>
+                    <text-property name="displayName">zsize_5</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_5"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_6</property>
+                    <text-property name="displayName">zsize_6</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_6"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_7</property>
+                    <text-property name="displayName">zsize_7</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_7"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color_desc</property>
+                    <text-property name="displayName">color_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_1_quantity</property>
+                    <text-property name="displayName">zsize_1_quantity</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_1_quantity"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_2_quantity</property>
+                    <text-property name="displayName">zsize_2_quantity</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_2_quantity"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_3_quantity</property>
+                    <text-property name="displayName">zsize_3_quantity</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_3_quantity"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_4_quantity</property>
+                    <text-property name="displayName">zsize_4_quantity</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_4_quantity"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_5_quantity</property>
+                    <text-property name="displayName">zsize_5_quantity</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_5_quantity"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_6_quantity</property>
+                    <text-property name="displayName">zsize_6_quantity</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_6_quantity"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_7_quantity</property>
+                    <text-property name="displayName">zsize_7_quantity</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_7_quantity"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_1_total</property>
+                    <expression name="expression" type="javascript">Total.sum(dataSetRow["zsize_1"],null,"g1")</expression>
+                    <property name="dataType">integer</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_1_quantity_t</property>
+                    <expression name="expression" type="javascript">Total.sum(row["zsize_1_quantity"],null,"g1")</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_2_quantity_t</property>
+                    <expression name="expression" type="javascript">Total.sum(row["zsize_2_quantity"],null,"g1")</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_3_quantity_t</property>
+                    <expression name="expression" type="javascript">Total.sum(row["zsize_3_quantity"],null,"g1")</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_4_quantity_t</property>
+                    <expression name="expression" type="javascript">Total.sum(row["zsize_4_quantity"],null,"g1")</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_5_quantity_t</property>
+                    <expression name="expression" type="javascript">Total.sum(row["zsize_5_quantity"],null,"g1")</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_6_quantity_t</property>
+                    <expression name="expression" type="javascript">Total.sum(row["zsize_6_quantity"],null,"g1")</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_7_quantity_t</property>
+                    <expression name="expression" type="javascript">Total.sum(row["zsize_7_quantity"],null,"g1")</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_all_quantity</property>
+                    <text-property name="displayName">zsize_all_quantity</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zsize_all_quantity"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zsize_all_quantity_t</property>
+                    <expression name="expression" type="javascript">Total.sum(row["zsize_all_quantity"],null,"g1")</expression>
+                    <property name="dataType">string</property>
+                    <property name="allowExport">true</property>
+                </structure>
+            </list-property>
+            <column id="1313">
+                <property name="textAlign">center</property>
+                <property name="width">35mm</property>
+            </column>
+            <column id="1314">
+                <property name="textAlign">center</property>
+                <property name="width">20mm</property>
+            </column>
+            <column id="1315">
+                <property name="textAlign">center</property>
+                <property name="width">20mm</property>
+            </column>
+            <column id="1316">
+                <property name="textAlign">center</property>
+                <property name="width">20mm</property>
+            </column>
+            <column id="1317">
+                <property name="textAlign">center</property>
+                <property name="width">20mm</property>
+            </column>
+            <column id="1318">
+                <property name="textAlign">center</property>
+                <property name="width">19mm</property>
+            </column>
+            <column id="1319">
+                <property name="textAlign">center</property>
+                <property name="width">19mm</property>
+            </column>
+            <column id="1320">
+                <property name="textAlign">center</property>
+                <property name="width">19mm</property>
+            </column>
+            <column id="1321">
+                <property name="textAlign">center</property>
+                <property name="width">25mm</property>
+            </column>
+            <header>
+                <row id="1616">
+                    <property name="verticalAlign">middle</property>
+                    <cell id="1617">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <label id="1244">
+                            <property name="display">inline</property>
+                            <text-property name="text">采购订单:</text-property>
+                        </label>
+                        <data id="1251">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">po_number</property>
+                        </data>
+                    </cell>
+                    <cell id="1618">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <label id="1245">
+                            <property name="display">inline</property>
+                            <text-property name="text">品牌:</text-property>
+                        </label>
+                        <data id="1250">
+                            <property name="display">inline</property>
+                            <property name="dataSet">header_size</property>
+                            <list-property name="boundDataColumns">
+                                <structure>
+                                    <property name="name">brand_desc</property>
+                                    <text-property name="displayName">brand_desc</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["brand_desc"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">zzband</property>
+                                    <text-property name="displayName">zzband</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["zzband"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">po_number</property>
+                                    <text-property name="displayName">po_number</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["po_number"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">satnr</property>
+                                    <text-property name="displayName">satnr</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["satnr"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">common_name</property>
+                                    <text-property name="displayName">common_name</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["common_name"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">zsize_1</property>
+                                    <text-property name="displayName">zsize_1</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["zsize_1"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">zsize_2</property>
+                                    <text-property name="displayName">zsize_2</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["zsize_2"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">zsize_3</property>
+                                    <text-property name="displayName">zsize_3</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["zsize_3"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">zsize_4</property>
+                                    <text-property name="displayName">zsize_4</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["zsize_4"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">zsize_5</property>
+                                    <text-property name="displayName">zsize_5</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["zsize_5"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">zsize_6</property>
+                                    <text-property name="displayName">zsize_6</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["zsize_6"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">zsize_7</property>
+                                    <text-property name="displayName">zsize_7</text-property>
+                                    <expression name="expression" type="javascript">dataSetRow["zsize_7"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                            </list-property>
+                            <property name="resultSetColumn">brand_desc</property>
+                        </data>
+                    </cell>
+                    <cell id="1620">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <label id="1246">
+                            <property name="display">inline</property>
+                            <text-property name="text">成品款号:</text-property>
+                        </label>
+                        <data id="1252">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">satnr</property>
+                        </data>
+                    </cell>
+                    <cell id="1622">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <label id="1247">
+                            <property name="display">inline</property>
+                            <text-property name="text">品名:</text-property>
+                        </label>
+                        <data id="1253">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">common_name</property>
+                        </data>
+                    </cell>
+                    <cell id="1625">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <label id="1248">
+                            <property name="display">inline</property>
+                            <text-property name="text">波段:</text-property>
+                        </label>
+                        <data id="1254">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">zzband</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="1606">
+                    <cell id="1607">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <label id="1240">
+                            <property name="textAlign">center</property>
+                            <text-property name="text">颜色(色号)</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1608">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1255">
+                            <property name="resultSetColumn">zsize_1</property>
+                        </data>
+                    </cell>
+                    <cell id="1609">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1256">
+                            <property name="resultSetColumn">zsize_2</property>
+                        </data>
+                    </cell>
+                    <cell id="1610">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1257">
+                            <property name="resultSetColumn">zsize_3</property>
+                        </data>
+                    </cell>
+                    <cell id="1611">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1258">
+                            <property name="resultSetColumn">zsize_4</property>
+                        </data>
+                    </cell>
+                    <cell id="1612">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1259">
+                            <property name="resultSetColumn">zsize_5</property>
+                        </data>
+                    </cell>
+                    <cell id="1613">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1260">
+                            <property name="resultSetColumn">zsize_6</property>
+                        </data>
+                    </cell>
+                    <cell id="1614">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1261">
+                            <property name="resultSetColumn">zsize_7</property>
+                        </data>
+                    </cell>
+                    <cell id="1615">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <label id="1241">
+                            <text-property name="text">合计</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </header>
+            <group id="1626">
+                <property name="groupName">g1</property>
+                <expression name="keyExpr" type="javascript">row["po_number"]</expression>
+                <structure name="toc">
+                    <expression name="expressionValue" type="javascript">row["po_number"]</expression>
+                </structure>
+                <property name="hideDetail">false</property>
+                <footer>
+                    <row id="1637">
+                        <cell id="1638">
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <label id="1648">
+                                <property name="textAlign">center</property>
+                                <text-property name="text">合计</text-property>
+                            </label>
+                        </cell>
+                        <cell id="1639">
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <data id="1651">
+                                <property name="resultSetColumn">zsize_1_quantity_t</property>
+                            </data>
+                        </cell>
+                        <cell id="1640">
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <data id="1652">
+                                <property name="resultSetColumn">zsize_2_quantity_t</property>
+                            </data>
+                        </cell>
+                        <cell id="1641">
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <data id="1653">
+                                <property name="resultSetColumn">zsize_3_quantity_t</property>
+                            </data>
+                        </cell>
+                        <cell id="1642">
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <data id="1654">
+                                <property name="resultSetColumn">zsize_4_quantity_t</property>
+                            </data>
+                        </cell>
+                        <cell id="1643">
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <data id="1656">
+                                <property name="resultSetColumn">zsize_5_quantity_t</property>
+                            </data>
+                        </cell>
+                        <cell id="1644">
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <data id="1657">
+                                <property name="resultSetColumn">zsize_6_quantity_t</property>
+                            </data>
+                        </cell>
+                        <cell id="1645">
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <data id="1658">
+                                <property name="resultSetColumn">zsize_7_quantity_t</property>
+                            </data>
+                        </cell>
+                        <cell id="1646">
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">1px</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">1px</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">1px</property>
+                            <data id="1679">
+                                <property name="resultSetColumn">zsize_all_quantity_t</property>
+                            </data>
+                        </cell>
+                    </row>
+                </footer>
+            </group>
+            <detail>
+                <row id="1293">
+                    <cell id="1294">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1332">
+                            <property name="resultSetColumn">color_desc</property>
+                        </data>
+                    </cell>
+                    <cell id="1295">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1333">
+                            <property name="resultSetColumn">zsize_1_quantity</property>
+                        </data>
+                    </cell>
+                    <cell id="1296">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1334">
+                            <property name="resultSetColumn">zsize_2_quantity</property>
+                        </data>
+                    </cell>
+                    <cell id="1297">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1335">
+                            <property name="resultSetColumn">zsize_3_quantity</property>
+                        </data>
+                    </cell>
+                    <cell id="1298">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1336">
+                            <property name="resultSetColumn">zsize_4_quantity</property>
+                        </data>
+                    </cell>
+                    <cell id="1299">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1337">
+                            <property name="resultSetColumn">zsize_5_quantity</property>
+                        </data>
+                    </cell>
+                    <cell id="1300">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1338">
+                            <property name="resultSetColumn">zsize_6_quantity</property>
+                        </data>
+                    </cell>
+                    <cell id="1301">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1339">
+                            <property name="resultSetColumn">zsize_7_quantity</property>
+                        </data>
+                    </cell>
+                    <cell id="1302">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <data id="1678">
+                            <property name="resultSetColumn">zsize_all_quantity</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+        <table id="1421">
+            <property name="dataSet">items</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">color_desc</property>
+                    <text-property name="displayName">color_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">mtart_desc</property>
+                    <text-property name="displayName">mtart_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["mtart_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">item_code</property>
+                    <text-property name="displayName">item_code</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["item_code"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ebort</property>
+                    <text-property name="displayName">ebort</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ebort"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzcomp</property>
+                    <text-property name="displayName">zzcomp</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzcomp"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">material_color</property>
+                    <text-property name="displayName">material_color</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["material_color"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">size1</property>
+                    <text-property name="displayName">size1</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["size1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">uptxt</property>
+                    <text-property name="displayName">uptxt</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["uptxt"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzwidth</property>
+                    <text-property name="displayName">zzwidth</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzwidth"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">upmng</property>
+                    <text-property name="displayName">upmng</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["upmng"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzdepl</property>
+                    <text-property name="displayName">zzdepl</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzdepl"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">primary_uom</property>
+                    <text-property name="displayName">primary_uom</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["primary_uom"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">quantity_all</property>
+                    <text-property name="displayName">quantity_all</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["quantity_all"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">item_specs</property>
+                    <text-property name="displayName">item_specs</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["item_specs"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1461">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <column id="1462">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <column id="1463">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+                <property name="width">25mm</property>
+            </column>
+            <column id="1464">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <column id="1465">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <column id="1466">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <column id="1467">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <column id="1468">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <column id="1469">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <column id="1470">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <column id="1503">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+                <property name="width">9mm</property>
+            </column>
+            <column id="1471">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+                <property name="width">10mm</property>
+            </column>
+            <column id="1472">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+                <property name="width">8mm</property>
+            </column>
+            <column id="1488">
+                <property name="textAlign">center</property>
+                <property name="verticalAlign">middle</property>
+            </column>
+            <header>
+                <row id="1422">
+                    <cell id="1423">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <text id="1509">
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[衣服颜色]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="1424">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <text id="1510">
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[物料
+类型]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="1425">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1475">
+                            <text-property name="text">物料编码</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1426">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1476">
+                            <text-property name="text">主配料</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1427">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1477">
+                            <text-property name="text">物料规格</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1428">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1478">
+                            <text-property name="text">成分</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1429">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1479">
+                            <text-property name="text">物料颜色</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1430">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1480">
+                            <text-property name="text">物料尺码</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1431">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1481">
+                            <text-property name="text">部位用料</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1432">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1482">
+                            <text-property name="text">幅宽</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1501">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1504">
+                            <text-property name="text">用量</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1433">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1483">
+                            <text-property name="text">损耗</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1434">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <text id="1511">
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[单
+位]]></text-property>
+                        </text>
+                    </cell>
+                    <cell id="1485">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <label id="1489">
+                            <text-property name="text">应发料数</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </header>
+            <detail>
+                <row id="1435">
+                    <cell id="1436">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1490">
+                            <property name="resultSetColumn">color_desc</property>
+                        </data>
+                    </cell>
+                    <cell id="1437">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1491">
+                            <property name="resultSetColumn">mtart_desc</property>
+                        </data>
+                    </cell>
+                    <cell id="1438">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1492">
+                            <property name="resultSetColumn">item_code</property>
+                        </data>
+                    </cell>
+                    <cell id="1439">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1493">
+                            <property name="resultSetColumn">ebort</property>
+                        </data>
+                    </cell>
+                    <cell id="1440">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1508">
+                            <property name="resultSetColumn">item_specs</property>
+                        </data>
+                    </cell>
+                    <cell id="1441">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1494">
+                            <property name="resultSetColumn">zzcomp</property>
+                        </data>
+                    </cell>
+                    <cell id="1442">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1495">
+                            <property name="resultSetColumn">material_color</property>
+                        </data>
+                    </cell>
+                    <cell id="1443">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1496">
+                            <property name="resultSetColumn">size1</property>
+                        </data>
+                    </cell>
+                    <cell id="1444">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1497">
+                            <property name="resultSetColumn">uptxt</property>
+                        </data>
+                    </cell>
+                    <cell id="1445">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1498">
+                            <property name="resultSetColumn">zzwidth</property>
+                        </data>
+                    </cell>
+                    <cell id="1502">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1505">
+                            <property name="resultSetColumn">upmng</property>
+                        </data>
+                    </cell>
+                    <cell id="1446">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1500">
+                            <property name="resultSetColumn">zzdepl</property>
+                        </data>
+                    </cell>
+                    <cell id="1447">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1506">
+                            <property name="resultSetColumn">primary_uom</property>
+                        </data>
+                    </cell>
+                    <cell id="1486">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">1px</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">1px</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">1px</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">1px</property>
+                        <property name="paddingTop">0pt</property>
+                        <property name="paddingLeft">0pt</property>
+                        <property name="paddingBottom">0pt</property>
+                        <property name="paddingRight">0pt</property>
+                        <data id="1507">
+                            <property name="resultSetColumn">quantity_all</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+    </body>
+</report>

@@ -105,7 +105,7 @@ public class SapBirtController {
             @RequestParam(value = "bukrs", required = true) String bukrs,
             HttpServletResponse response,HttpServletRequest request) throws Exception {
         Properties properties =  new Properties();
-        properties.load(this.getClass().getClassLoader().getResourceAsStream("SapUserPassword.properties"));
+        properties.load(this.getClass().getClassLoader().getResourceAsStream("config.properties"));
         HttpHost target = new HttpHost(properties.getProperty("customerFunds.sap.hostname"), Integer.parseInt(properties.getProperty("customerFunds.sap.port")), "http");
         CredentialsProvider credsProvider = new BasicCredentialsProvider();
         credsProvider.setCredentials(

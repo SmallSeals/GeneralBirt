@@ -31,6 +31,13 @@
 
 
 	<dependencies>
+
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+			<version>3.12.1</version>
+		</dependency>
+
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -212,8 +219,42 @@
 
 	</dependencies>
 
+	<!-- 多环境部署设置 -->
+	<profiles>
+		<profile>
+			<!-- 本地开发环境 -->
+			<id>dev</id>
+			<properties>
+				<profiles.active>dev</profiles.active>
+			</properties>
+			<!-- 默认是本地开发环境 -->
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+		<profile>
+			<!-- 测试环境 -->
+			<id>test</id>
+			<properties>
+				<profiles.active>test</profiles.active>
+			</properties>
+		</profile>
+		<profile>
+			<!-- 生产环境 -->
+			<id>pro</id>
+			<properties>
+				<profiles.active>pro</profiles.active>
+			</properties>
+		</profile>
+	</profiles>
+
 	<build>
 		<defaultGoal>compile</defaultGoal>
+		<!-- maven模块化的话最好从父类继成取，打成包的命名 -->
+		<finalName>${project.artifactId}</finalName>
+		<filters>
+			<filter>src/main/resources/config-${profiles.active}.properties</filter>
+		</filters>
 		<resources>
 			<resource>
 				<directory>src/main/java</directory>
@@ -230,10 +271,12 @@
 					<include>**/*.xml</include>
 				</includes>
 				<filtering>true</filtering>
+				<excludes>
+					<exclude>config-*.properties</exclude>
+				</excludes>
 			</resource>
 		</resources>
 
-		<finalName>${project.artifactId}</finalName>
 		<plugins>
 
 			<plugin>
