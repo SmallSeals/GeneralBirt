@@ -41,9 +41,7 @@ public class SrmPrintController {
 	 */
 	@RequestMapping("billOfMaterials")
 	public void billOfMaterials(@RequestParam(value = "pur_header_id", required = true) Long pur_header_id,
-			 HttpServletResponse response,HttpServletRequest request
-			)
-			throws Exception {
+			HttpServletResponse response, HttpServletRequest request) throws Exception {
 		Properties properties = new Properties();
 		properties.load(this.getClass().getClassLoader().getResourceAsStream("config.properties"));
 		String srm_address = properties.getProperty("srm.address");
@@ -97,7 +95,7 @@ public class SrmPrintController {
 		Map<String, Object> resultMap = new HashMap<String, Object>();
 		if (material_header_str != null && !"".equals(material_header_str)) {
 			JSONObject materialHeaderJsonObject = JSONObject.parseObject(material_header_str);
-			
+
 			Object success = materialHeaderJsonObject.get("success");
 			if (Boolean.TRUE.equals(success)) {
 				JSONObject resultJsonObject = materialHeaderJsonObject.getJSONObject("result");
@@ -107,34 +105,64 @@ public class SrmPrintController {
 				throw new Exception("获取物料清单header数据错误");
 			}
 		}
-		
-		
+
 		if (material_size_str != null && !"".equals(material_size_str)) {
 			JSONObject materialSizeJsonObject = JSONObject.parseObject(material_size_str);
 			Object success = materialSizeJsonObject.get("success");
 			if (Boolean.TRUE.equals(success)) {
 				JSONObject resultJsonObject = materialSizeJsonObject.getJSONObject("result");
-				JSONArray recordJsonArray = resultJsonObject.getJSONArray("record");
-				resultMap.put("szie", recordJsonArray);
+				Object object = resultJsonObject.get("record");
+				JSONArray recordJsonArray = new JSONArray();
+				if (object == null) {
+					resultMap.put("szie", recordJsonArray);
+				} else {
+					if (object instanceof JSONObject) {
+						recordJsonArray.add(object);
+					} else if (object instanceof JSONArray) {
+						recordJsonArray.addAll((JSONArray) object);
+					} else {
+						throw new Exception("获取物料清单size  record 数据 类型错误");
+					}
+					// JSONArray recordJsonArray =
+					// resultJsonObject.getJSONArray("record");
+					resultMap.put("szie", recordJsonArray);
+				}
 			} else {
 				throw new Exception("获取物料清单size数据错误");
 			}
 		}
-		
+
 		if (material_items_str != null && !"".equals(material_items_str)) {
 			JSONObject materialItemsJsonObject = JSONObject.parseObject(material_items_str);
 			Object success = materialItemsJsonObject.get("success");
 			if (Boolean.TRUE.equals(success)) {
 				JSONObject resultJsonObject = materialItemsJsonObject.getJSONObject("result");
-				JSONArray recordJsonArray = resultJsonObject.getJSONArray("record");
-				resultMap.put("items", recordJsonArray);
+				Object object = resultJsonObject.get("record");
+				JSONArray recordJsonArray = new JSONArray();
+				if (object == null) {
+					resultMap.put("items", recordJsonArray);
+				} else {
+					
+					if (object instanceof JSONObject) {
+						recordJsonArray.add(object);
+					} else if (object instanceof JSONArray) {
+						recordJsonArray.addAll((JSONArray) object);
+					} else {
+						throw new Exception("获取物料清单items  record 数据 类型错误");
+					}
+
+					// JSONArray recordJsonArray =
+					// resultJsonObject.getJSONArray("record");
+					resultMap.put("items", recordJsonArray);
+				}
 			} else {
 				throw new Exception("获取物料清单items数据错误");
 			}
 		}
-		
-		HashMap<String,Object> headerMap = new HashMap<String, Object>();
-		this.reportCommonService.innerJsonGenerateReport("pdf", resultMap, headerMap, "srm_material.rptdesign", response, request);
-		
+
+		HashMap<String, Object> headerMap = new HashMap<String, Object>();
+		this.reportCommonService.innerJsonGenerateReport("pdf", resultMap, headerMap, "srm_material.rptdesign",
+				response, request);
+
 	}
 }
