@@ -600,6 +600,8 @@ return false;
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2">
             <property name="type">a4</property>
+            <property name="leftMargin">0.15in</property>
+            <property name="rightMargin">0.15in</property>
             <page-header>
                 <grid id="1176">
                     <column id="1187">
@@ -793,6 +795,8 @@ return false;
     <body>
         <table id="1282">
             <property name="fontFamily">"宋体"</property>
+            <property name="fontSize">9pt</property>
+            <property name="width">7.85in</property>
             <property name="dataSet">header_size</property>
             <list-property name="boundDataColumns">
                 <structure>
@@ -1010,12 +1014,13 @@ return false;
             </column>
             <column id="1321">
                 <property name="textAlign">center</property>
-                <property name="width">25mm</property>
+                <property name="width">28.363333333333337mm</property>
             </column>
             <header>
                 <row id="1616">
                     <property name="verticalAlign">middle</property>
                     <cell id="1617">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1036,6 +1041,7 @@ return false;
                     <cell id="1618">
                         <property name="colSpan">2</property>
                         <property name="rowSpan">1</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1131,6 +1137,7 @@ return false;
                     <cell id="1620">
                         <property name="colSpan">2</property>
                         <property name="rowSpan">1</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1151,6 +1158,7 @@ return false;
                     <cell id="1622">
                         <property name="colSpan">3</property>
                         <property name="rowSpan">1</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1169,6 +1177,7 @@ return false;
                         </data>
                     </cell>
                     <cell id="1625">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1189,6 +1198,7 @@ return false;
                 </row>
                 <row id="1606">
                     <cell id="1607">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1203,6 +1213,7 @@ return false;
                         </label>
                     </cell>
                     <cell id="1608">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1216,6 +1227,7 @@ return false;
                         </data>
                     </cell>
                     <cell id="1609">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1229,6 +1241,7 @@ return false;
                         </data>
                     </cell>
                     <cell id="1610">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1242,6 +1255,7 @@ return false;
                         </data>
                     </cell>
                     <cell id="1611">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1255,6 +1269,7 @@ return false;
                         </data>
                     </cell>
                     <cell id="1612">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1268,6 +1283,7 @@ return false;
                         </data>
                     </cell>
                     <cell id="1613">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1281,6 +1297,7 @@ return false;
                         </data>
                     </cell>
                     <cell id="1614">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1294,6 +1311,7 @@ return false;
                         </data>
                     </cell>
                     <cell id="1615">
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1318,6 +1336,7 @@ return false;
                 <footer>
                     <row id="1637">
                         <cell id="1638">
+                            <property name="fontSize">9pt</property>
                             <property name="borderLeftStyle">solid</property>
                             <property name="borderLeftWidth">1px</property>
                             <property name="borderRightStyle">solid</property>
@@ -1330,6 +1349,7 @@ return false;
                             </label>
                         </cell>
                         <cell id="1639">
+                            <property name="fontSize">9pt</property>
                             <property name="borderLeftStyle">solid</property>
                             <property name="borderLeftWidth">1px</property>
                             <property name="borderRightStyle">solid</property>
@@ -1341,6 +1361,7 @@ return false;
                             </data>
                         </cell>
                         <cell id="1640">
+                            <property name="fontSize">9pt</property>
                             <property name="borderLeftStyle">solid</property>
                             <property name="borderLeftWidth">1px</property>
                             <property name="borderRightStyle">solid</property>
@@ -1352,6 +1373,7 @@ return false;
                             </data>
                         </cell>
                         <cell id="1641">
+                            <property name="fontSize">9pt</property>
                             <property name="borderLeftStyle">solid</property>
                             <property name="borderLeftWidth">1px</property>
                             <property name="borderRightStyle">solid</property>
@@ -1363,6 +1385,7 @@ return false;
                             </data>
                         </cell>
                         <cell id="1642">
+                            <property name="fontSize">9pt</property>
                             <property name="borderLeftStyle">solid</property>
                             <property name="borderLeftWidth">1px</property>
                             <property name="borderRightStyle">solid</property>
@@ -1374,6 +1397,7 @@ return false;
                             </data>
                         </cell>
                         <cell id="1643">
+                            <property name="fontSize">9pt</property>
                             <property name="borderLeftStyle">solid</property>
                             <property name="borderLeftWidth">1px</property>
                             <property name="borderRightStyle">solid</property>
@@ -1385,6 +1409,7 @@ return false;
                             </data>
                         </cell>
                         <cell id="1644">
+                            <property name="fontSize">9pt</property>
                             <property name="borderLeftStyle">solid</property>
                             <property name="borderLeftWidth">1px</property>
                             <property name="borderRightStyle">solid</property>
@@ -1396,6 +1421,7 @@ return false;
                             </data>
                         </cell>
                         <cell id="1645">
+                            <property name="fontSize">9pt</property>
                             <property name="borderLeftStyle">solid</property>
                             <property name="borderLeftWidth">1px</property>
                             <property name="borderRightStyle">solid</property>
@@ -1407,6 +1433,7 @@ return false;
                             </data>
                         </cell>
                         <cell id="1646">
+                            <property name="fontSize">9pt</property>
                             <property name="borderLeftStyle">solid</property>
                             <property name="borderLeftWidth">1px</property>
                             <property name="borderRightStyle">solid</property>
@@ -1424,6 +1451,7 @@ return false;
                 <row id="1293">
                     <cell id="1294">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1438,6 +1466,7 @@ return false;
                     </cell>
                     <cell id="1295">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1452,6 +1481,7 @@ return false;
                     </cell>
                     <cell id="1296">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1466,6 +1496,7 @@ return false;
                     </cell>
                     <cell id="1297">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1480,6 +1511,7 @@ return false;
                     </cell>
                     <cell id="1298">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1494,6 +1526,7 @@ return false;
                     </cell>
                     <cell id="1299">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1508,6 +1541,7 @@ return false;
                     </cell>
                     <cell id="1300">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1522,6 +1556,7 @@ return false;
                     </cell>
                     <cell id="1301">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1536,6 +1571,7 @@ return false;
                     </cell>
                     <cell id="1302">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">9pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1642,67 +1678,78 @@ return false;
             <column id="1461">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">14.2mm</property>
             </column>
             <column id="1462">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">16mm</property>
             </column>
             <column id="1463">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
-                <property name="width">25mm</property>
+                <property name="width">22mm</property>
             </column>
             <column id="1464">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">10.8mm</property>
             </column>
             <column id="1465">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">19.8mm</property>
             </column>
-            <column id="1466">
+            <column id="1683">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">18.2mm</property>
             </column>
             <column id="1467">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">14mm</property>
             </column>
             <column id="1468">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">13.6mm</property>
             </column>
             <column id="1469">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">14.2mm</property>
             </column>
             <column id="1470">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">12.2mm</property>
             </column>
             <column id="1503">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
-                <property name="width">9mm</property>
+                <property name="width">11mm</property>
             </column>
             <column id="1471">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
-                <property name="width">10mm</property>
+                <property name="width">11.2mm</property>
             </column>
             <column id="1472">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
-                <property name="width">8mm</property>
+                <property name="width">8.4mm</property>
             </column>
             <column id="1488">
                 <property name="textAlign">center</property>
                 <property name="verticalAlign">middle</property>
+                <property name="width">15.4mm</property>
             </column>
             <header>
                 <row id="1422">
                     <cell id="1423">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1722,6 +1769,7 @@ return false;
                     </cell>
                     <cell id="1424">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1742,6 +1790,7 @@ return false;
                     </cell>
                     <cell id="1425">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1760,6 +1809,7 @@ return false;
                     </cell>
                     <cell id="1426">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1772,12 +1822,16 @@ return false;
                         <property name="paddingLeft">0pt</property>
                         <property name="paddingBottom">0pt</property>
                         <property name="paddingRight">0pt</property>
-                        <label id="1476">
-                            <text-property name="text">主配料</text-property>
-                        </label>
+                        <text id="1680">
+                            <property name="contentType">auto</property>
+                            <text-property name="content"><![CDATA[主
+配
+料]]></text-property>
+                        </text>
                     </cell>
                     <cell id="1427">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1794,8 +1848,9 @@ return false;
                             <text-property name="text">物料规格</text-property>
                         </label>
                     </cell>
-                    <cell id="1428">
+                    <cell id="1681">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1808,12 +1863,13 @@ return false;
                         <property name="paddingLeft">0pt</property>
                         <property name="paddingBottom">0pt</property>
                         <property name="paddingRight">0pt</property>
-                        <label id="1478">
+                        <label id="1684">
                             <text-property name="text">成分</text-property>
                         </label>
                     </cell>
                     <cell id="1429">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1832,6 +1888,7 @@ return false;
                     </cell>
                     <cell id="1430">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1850,6 +1907,7 @@ return false;
                     </cell>
                     <cell id="1431">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1868,6 +1926,7 @@ return false;
                     </cell>
                     <cell id="1432">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1886,6 +1945,7 @@ return false;
                     </cell>
                     <cell id="1501">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1904,6 +1964,7 @@ return false;
                     </cell>
                     <cell id="1433">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1922,6 +1983,7 @@ return false;
                     </cell>
                     <cell id="1434">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1942,6 +2004,7 @@ return false;
                     </cell>
                     <cell id="1485">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1964,6 +2027,7 @@ return false;
                 <row id="1435">
                     <cell id="1436">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -1982,6 +2046,7 @@ return false;
                     </cell>
                     <cell id="1437">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2000,6 +2065,7 @@ return false;
                     </cell>
                     <cell id="1438">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2013,11 +2079,13 @@ return false;
                         <property name="paddingBottom">0pt</property>
                         <property name="paddingRight">0pt</property>
                         <data id="1492">
+                            <property name="whiteSpace">normal</property>
                             <property name="resultSetColumn">item_code</property>
                         </data>
                     </cell>
                     <cell id="1439">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2036,6 +2104,7 @@ return false;
                     </cell>
                     <cell id="1440">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2052,8 +2121,9 @@ return false;
                             <property name="resultSetColumn">item_specs</property>
                         </data>
                     </cell>
-                    <cell id="1441">
+                    <cell id="1682">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2066,12 +2136,13 @@ return false;
                         <property name="paddingLeft">0pt</property>
                         <property name="paddingBottom">0pt</property>
                         <property name="paddingRight">0pt</property>
-                        <data id="1494">
+                        <data id="1685">
                             <property name="resultSetColumn">zzcomp</property>
                         </data>
                     </cell>
                     <cell id="1442">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2090,6 +2161,7 @@ return false;
                     </cell>
                     <cell id="1443">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2108,6 +2180,7 @@ return false;
                     </cell>
                     <cell id="1444">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2126,6 +2199,7 @@ return false;
                     </cell>
                     <cell id="1445">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2144,6 +2218,7 @@ return false;
                     </cell>
                     <cell id="1502">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2162,6 +2237,7 @@ return false;
                     </cell>
                     <cell id="1446">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2180,6 +2256,7 @@ return false;
                     </cell>
                     <cell id="1447">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>
@@ -2198,6 +2275,7 @@ return false;
                     </cell>
                     <cell id="1486">
                         <property name="fontFamily">"宋体"</property>
+                        <property name="fontSize">8.3pt</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">1px</property>
                         <property name="borderLeftStyle">solid</property>

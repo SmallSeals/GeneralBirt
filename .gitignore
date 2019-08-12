@@ -1,1 +1,8 @@
 /target/
+/logs/
+/.gitignore
+/.classpath
+/.project
+/.settings/
+/_config.yml
+/src/main/resources/rebel.xml

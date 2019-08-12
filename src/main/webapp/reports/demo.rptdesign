@@ -9,63 +9,388 @@
         <script-data-source name="Data Source" id="4"/>
     </data-sources>
     <data-sets>
-        <script-data-set name="Data Set" id="5">
+        <script-data-set name="header" id="287">
             <list-property name="resultSetHints">
                 <structure>
                     <property name="position">1</property>
-                    <property name="name">barcode1</property>
+                    <property name="name">delegate_unit</property>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
                     <property name="position">2</property>
-                    <property name="name">barcode2</property>
+                    <property name="name">linkman</property>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
                     <property name="position">3</property>
-                    <property name="name">barcode3</property>
+                    <property name="name">address_information</property>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
                     <property name="position">4</property>
-                    <property name="name">barcode4</property>
+                    <property name="name">telephone</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">check_standard_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">send_people</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">item_style_number</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">color_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">check_period_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">report_way_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">header_business_type_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">number_total</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">sample_name</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">brand_code_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">quarter</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">number_of_times</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">ingredient</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">grade</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">style_number</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">check_project_desc_1</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">21</property>
+                    <property name="name">check_project_desc_2</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">22</property>
+                    <property name="name">check_project_desc_3</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">23</property>
+                    <property name="name">gtt_check_number</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">24</property>
+                    <property name="name">get_book_way_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">25</property>
+                    <property name="name">gtt_category_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">26</property>
+                    <property name="name">batch</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">27</property>
+                    <property name="name">safety_standard_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">28</property>
+                    <property name="name">vendor_code</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">29</property>
+                    <property name="name">comments</property>
                     <property name="dataType">string</property>
                 </structure>
             </list-property>
             <list-property name="columnHints">
                 <structure>
-                    <property name="columnName">barcode1</property>
+                    <property name="columnName">delegate_unit</property>
                 </structure>
                 <structure>
-                    <property name="columnName">barcode2</property>
+                    <property name="columnName">linkman</property>
                 </structure>
                 <structure>
-                    <property name="columnName">barcode3</property>
+                    <property name="columnName">address_information</property>
                 </structure>
                 <structure>
-                    <property name="columnName">barcode4</property>
+                    <property name="columnName">telephone</property>
+                </structure>
+                <structure>
+                    <property name="columnName">check_standard_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">send_people</property>
+                </structure>
+                <structure>
+                    <property name="columnName">item_style_number</property>
+                </structure>
+                <structure>
+                    <property name="columnName">color_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">check_period_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">report_way_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">header_business_type_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">number_total</property>
+                </structure>
+                <structure>
+                    <property name="columnName">sample_name</property>
+                </structure>
+                <structure>
+                    <property name="columnName">brand_code_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">quarter</property>
+                </structure>
+                <structure>
+                    <property name="columnName">number_of_times</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ingredient</property>
+                </structure>
+                <structure>
+                    <property name="columnName">grade</property>
+                </structure>
+                <structure>
+                    <property name="columnName">style_number</property>
+                </structure>
+                <structure>
+                    <property name="columnName">check_project_desc_1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">check_project_desc_2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">check_project_desc_3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">gtt_check_number</property>
+                </structure>
+                <structure>
+                    <property name="columnName">get_book_way_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">gtt_category_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">batch</property>
+                </structure>
+                <structure>
+                    <property name="columnName">safety_standard_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">vendor_code</property>
+                </structure>
+                <structure>
+                    <property name="columnName">comments</property>
                 </structure>
             </list-property>
             <structure name="cachedMetaData">
                 <list-property name="resultSet">
                     <structure>
                         <property name="position">1</property>
-                        <property name="name">barcode1</property>
+                        <property name="name">delegate_unit</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
                         <property name="position">2</property>
-                        <property name="name">barcode2</property>
+                        <property name="name">linkman</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
                         <property name="position">3</property>
-                        <property name="name">barcode3</property>
+                        <property name="name">address_information</property>
                         <property name="dataType">string</property>
                     </structure>
                     <structure>
                         <property name="position">4</property>
-                        <property name="name">barcode4</property>
+                        <property name="name">telephone</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">check_standard_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">send_people</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">item_style_number</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">color_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">check_period_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">report_way_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">header_business_type_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">number_total</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">sample_name</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">brand_code_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">quarter</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">number_of_times</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">ingredient</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">grade</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">style_number</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">check_project_desc_1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">21</property>
+                        <property name="name">check_project_desc_2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">22</property>
+                        <property name="name">check_project_desc_3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">23</property>
+                        <property name="name">gtt_check_number</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">24</property>
+                        <property name="name">get_book_way_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">25</property>
+                        <property name="name">gtt_category_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">26</property>
+                        <property name="name">batch</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">27</property>
+                        <property name="name">safety_standard_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">28</property>
+                        <property name="name">vendor_code</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">29</property>
+                        <property name="name">comments</property>
                         <property name="dataType">string</property>
                     </structure>
                 </list-property>
@@ -73,107 +398,872 @@
             <property name="dataSource">Data Source</property>
             <method name="open"><![CDATA[importPackage(Packages.java.lang);
 rep=reportContext.getHttpServletRequest();
-sresultList = rep.getAttribute("data");
-stotalrows = sresultList.size();
+header = rep.getAttribute("header");
+
+
+System.out.println("header:"+header);
+headerJsonObject = new Packages.com.alibaba.fastjson.JSONObject.parseObject(header); 
+System.out.println("headerJsonObject:"+headerJsonObject);
+
+items = rep.getAttribute("items");
+System.out.println("items:"+items);
+itemsJsonArray = new Packages.com.alibaba.fastjson.JSONObject.parseArray(items); 
+total = itemsJsonArray.size();
+System.out.println("total:"+total);
 scurrentrow=0;]]></method>
-            <method name="fetch"><![CDATA[if(scurrentrow >= stotalrows){
-return false;
+            <method name="fetch"><![CDATA[
+
+if(scurrentrow < total){
+
+	row["delegate_unit"] = headerJsonObject.get("delegate_unit");//委托单位
+	row["linkman"] = headerJsonObject.get("linkman");//联系人
+	row["address_information"] = headerJsonObject.get("address_information");//地址
+	row["telephone"] = headerJsonObject.get("telephone");//电话
+	row["check_standard_desc"] = headerJsonObject.get("check_standard_desc");//测试依据 (执行标准)
+	row["send_people"] = headerJsonObject.get("send_people");//送检人
+	row["item_style_number"] = headerJsonObject.get("item_style_number");//面料编号
+	row["gtt_check_number"] =headerJsonObject.get("gtt_check_number");//送检单号
+	//System.out.println("www");
+	//row["barcode"] = "http://"+headerJsonObject.get("host")+":"+headerJsonObject.get("port")+headerJsonObject.get("contextPath")+"/srm_birt/generateBarcode?barcode="+headerJsonObject.get("gtt_check_number");//送检单号
+
+	//System.out.println("barcode:"+row["barcode"]);
+	
+	row["vendor_code"] = headerJsonObject.get("vendor_code");//供应商
+	row["gtt_category_desc"] = headerJsonObject.get("gtt_category_desc");//类别
+	row["batch"] = headerJsonObject.get("batch");//批次
+	row["safety_standard_desc"] = headerJsonObject.get("safety_standard_desc");//安全标准
+	row["color_desc"] = headerJsonObject.get("color_desc");//颜色
+	row["check_period_desc"] = headerJsonObject.get("check_period_desc");//测试周期
+	row["report_way_desc"] = headerJsonObject.get("report_way_desc");//取报告书方式
+	row["header_business_type_desc"] = headerJsonObject.get("header_business_type_desc");//业务类型
+	row["number_total"] = headerJsonObject.get("number_total");//数量
+	row["sample_name"] = headerJsonObject.get("sample_name");//样品名称
+	row["brand_code_desc"] = headerJsonObject.get("brand_code_desc");//品牌
+	row["quarter"] = headerJsonObject.get("quarter");//季度
+	row["number_of_times"] = headerJsonObject.get("number_of_times");//次数
+	row["ingredient"] = headerJsonObject.get("ingredient");//原料成分
+	row["grade"] = headerJsonObject.get("grade");//等级
+	row["style_number"] = headerJsonObject.get("style_number");//款号
+	row["get_book_way_desc"] = headerJsonObject.get("get_book_way_desc");//取报告书方式-值集GTT_REPORT_WAY
+	
+	row["comments"] = headerJsonObject.get("comments");//备注
+	
+	
+	 itemsObject =  itemsJsonArray.getJSONObject(scurrentrow);
+	
+	row["check_project_desc_1"] = itemsObject.get("check_project_desc_1");
+	row["check_project_desc_2"] = itemsObject.get("check_project_desc_2");
+	row["check_project_desc_3"] = itemsObject.get("check_project_desc_3");
+	
+	scurrentrow++;
+	return true;
 }
-row["barcode1"] = sresultList.get(scurrentrow).get("barcode1");
-System.out.println(row["barcode1"]);
-row["barcode2"] = sresultList.get(scurrentrow).get("barcode2");
-row["barcode3"] = sresultList.get(scurrentrow).get("barcode3");
-row["barcode4"] = sresultList.get(scurrentrow).get("barcode4");
-scurrentrow++;
-return true;]]></method>
-            <method name="close"><![CDATA[sresultList=null;]]></method>
+return false;]]></method>
+            <method name="close"><![CDATA[headerJsonObject = null;]]></method>
         </script-data-set>
     </data-sets>
     <page-setup>
         <simple-master-page name="Simple MasterPage" id="2">
-            <page-footer>
-                <text id="3">
-                    <property name="contentType">html</property>
-                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
-                </text>
-            </page-footer>
+            <property name="type">a4</property>
+            <property name="topMargin">0.25in</property>
+            <property name="headerHeight">0in</property>
         </simple-master-page>
     </page-setup>
     <body>
-        <table id="6">
-            <property name="dataSet">Data Set</property>
+        <table id="84">
+            <property name="dataSet">header</property>
             <list-property name="boundDataColumns">
                 <structure>
-                    <property name="name">barcode1</property>
-                    <text-property name="displayName">barcode1</text-property>
-                    <expression name="expression" type="javascript">dataSetRow["barcode1"]</expression>
+                    <property name="name">delegate_unit</property>
+                    <text-property name="displayName">delegate_unit</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["delegate_unit"]</expression>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">barcode2</property>
-                    <text-property name="displayName">barcode2</text-property>
-                    <expression name="expression" type="javascript">dataSetRow["barcode2"]</expression>
+                    <property name="name">linkman</property>
+                    <text-property name="displayName">linkman</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["linkman"]</expression>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">barcode3</property>
-                    <text-property name="displayName">barcode3</text-property>
-                    <expression name="expression" type="javascript">dataSetRow["barcode3"]</expression>
+                    <property name="name">address_information</property>
+                    <text-property name="displayName">address_information</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["address_information"]</expression>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">barcode4</property>
-                    <text-property name="displayName">barcode4</text-property>
-                    <expression name="expression" type="javascript">dataSetRow["barcode4"]</expression>
+                    <property name="name">telephone</property>
+                    <text-property name="displayName">telephone</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["telephone"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">check_standard_desc</property>
+                    <text-property name="displayName">check_standard_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["check_standard_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">send_people</property>
+                    <text-property name="displayName">send_people</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["send_people"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">item_style_number</property>
+                    <text-property name="displayName">item_style_number</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["item_style_number"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">color_desc</property>
+                    <text-property name="displayName">color_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["color_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">check_period_desc</property>
+                    <text-property name="displayName">check_period_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["check_period_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">report_way_desc</property>
+                    <text-property name="displayName">report_way_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["report_way_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">header_business_type_desc</property>
+                    <text-property name="displayName">header_business_type_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["header_business_type_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">number_total</property>
+                    <text-property name="displayName">number_total</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["number_total"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">sample_name</property>
+                    <text-property name="displayName">sample_name</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["sample_name"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">brand_code_desc</property>
+                    <text-property name="displayName">brand_code_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["brand_code_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">quarter</property>
+                    <text-property name="displayName">quarter</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["quarter"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">number_of_times</property>
+                    <text-property name="displayName">number_of_times</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["number_of_times"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ingredient</property>
+                    <text-property name="displayName">ingredient</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["ingredient"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">grade</property>
+                    <text-property name="displayName">grade</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["grade"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">style_number</property>
+                    <text-property name="displayName">style_number</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["style_number"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">check_project_desc_1</property>
+                    <text-property name="displayName">check_project_desc_1</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["check_project_desc_1"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">check_project_desc_2</property>
+                    <text-property name="displayName">check_project_desc_2</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["check_project_desc_2"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">check_project_desc_3</property>
+                    <text-property name="displayName">check_project_desc_3</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["check_project_desc_3"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">get_book_way_desc</property>
+                    <text-property name="displayName">get_book_way_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["get_book_way_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">vendor_code</property>
+                    <text-property name="displayName">vendor_code</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["vendor_code"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">gtt_category_desc</property>
+                    <text-property name="displayName">gtt_category_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["gtt_category_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">batch</property>
+                    <text-property name="displayName">batch</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["batch"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">safety_standard_desc</property>
+                    <text-property name="displayName">safety_standard_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["safety_standard_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">comments</property>
+                    <text-property name="displayName">comments</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["comments"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">gtt_check_number</property>
+                    <text-property name="displayName">gtt_check_number</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["gtt_check_number"]</expression>
                     <property name="dataType">string</property>
                 </structure>
             </list-property>
-            <column id="19"/>
-            <column id="20"/>
-            <column id="21"/>
-            <column id="30"/>
+            <column id="185">
+                <property name="width">45mm</property>
+            </column>
+            <column id="197"/>
+            <column id="210"/>
+            <column id="139"/>
             <header>
-                <row id="7">
-                    <property name="height">0.4270833333333333in</property>
-                    <cell id="8">
-                        <label id="31">
-                            <property name="fontSize">18pt</property>
-                            <property name="textAlign">right</property>
-                            <property name="display">block</property>
-                            <text-property name="text">Carton No.</text-property>
+                <row id="85">
+                    <property name="height">30mm</property>
+                    <cell id="174">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <property name="verticalAlign">middle</property>
+                        <label id="172">
+                            <property name="fontFamily">"宋体"</property>
+                            <property name="fontSize">22pt</property>
+                            <text-property name="text">爱帛原材料送检申请表</text-property>
                         </label>
                     </cell>
-                    <cell id="9"/>
-                    <cell id="10">
-                        <label id="32">
-                            <property name="fontSize">18pt</property>
-                            <property name="textAlign">right</property>
-                            <property name="display">block</property>
-                            <text-property name="text">QTY:</text-property>
+                    <cell id="291">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">center</property>
+                        <property name="verticalAlign">middle</property>
+                        <extended-item extensionName="Barcode" id="377">
+                            <expression name="displayText" type="javascript">row["gtt_check_number"]</expression>
+                            <property name="codeType">CODE39</property>
+                            <property name="height">0.6833333333333333in</property>
+                            <property name="width">2.691666666666667in</property>
+                            <structure name="toc"/>
+                        </extended-item>
+                    </cell>
+                </row>
+                <row id="140">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="175">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="211">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">委托单位：</text-property>
+                        </label>
+                        <data id="292">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">delegate_unit</property>
+                        </data>
+                    </cell>
+                    <cell id="378">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="219">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">联系人：</text-property>
+                        </label>
+                        <data id="293">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">linkman</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="144">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="176">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="212">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">地址：</text-property>
+                        </label>
+                        <data id="294">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">address_information</property>
+                        </data>
+                    </cell>
+                    <cell id="379">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="220">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">电   话：</text-property>
+                        </label>
+                        <data id="295">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">telephone</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="317">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="318">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="324">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">供应商：</text-property>
+                        </label>
+                        <data id="325">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">vendor_code</property>
+                        </data>
+                    </cell>
+                    <cell id="380">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="221">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">送检人：</text-property>
+                        </label>
+                        <data id="296">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">send_people</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="148">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="177">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="213">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">执行标准 ：</text-property>
+                        </label>
+                        <data id="297">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">check_standard_desc</property>
+                        </data>
+                    </cell>
+                    <cell id="381">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="222">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">数量：</text-property>
+                        </label>
+                        <data id="299">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">number_of_times</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="226">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="227">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="233">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">业务类型：</text-property>
+                        </label>
+                        <data id="298">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">header_business_type_desc</property>
+                        </data>
+                    </cell>
+                    <cell id="382">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="223">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">品牌：</text-property>
+                        </label>
+                        <data id="301">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">brand_code_desc</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="160">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="178">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="214">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">样品名称：</text-property>
+                        </label>
+                        <data id="300">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">sample_name</property>
+                        </data>
+                    </cell>
+                    <cell id="383">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="224">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">季度：</text-property>
+                        </label>
+                        <data id="303">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">quarter</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="156">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="179">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="215">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">面料编号：</text-property>
+                        </label>
+                        <data id="302">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">item_style_number</property>
+                        </data>
+                    </cell>
+                    <cell id="384">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="234">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">次数：</text-property>
+                        </label>
+                        <data id="304">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">number_of_times</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="152">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="180">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="216">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">颜色：</text-property>
+                        </label>
+                        <data id="305">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">color_desc</property>
+                        </data>
+                    </cell>
+                    <cell id="385">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="235">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">等级：</text-property>
+                        </label>
+                        <data id="307">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">grade</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="164">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="181">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="217">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">原料成分：</text-property>
+                        </label>
+                        <data id="306">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">ingredient</property>
+                        </data>
+                    </cell>
+                    <cell id="386">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="326">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">类别:</text-property>
+                        </label>
+                        <data id="327">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">gtt_category_desc</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="335">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">6mm</property>
+                    <cell id="336">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="346">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">安全标准：</text-property>
+                        </label>
+                        <data id="349">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">safety_standard_desc</property>
+                        </data>
+                    </cell>
+                    <cell id="387">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="347">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">批次:</text-property>
+                        </label>
+                        <data id="348">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">batch</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="168">
+                    <property name="borderBottomStyle">solid</property>
+                    <property name="borderBottomWidth">thin</property>
+                    <property name="borderLeftStyle">solid</property>
+                    <property name="borderLeftWidth">thin</property>
+                    <property name="borderRightStyle">solid</property>
+                    <property name="borderRightWidth">thin</property>
+                    <property name="borderTopStyle">solid</property>
+                    <property name="borderTopWidth">thin</property>
+                    <property name="height">12mm</property>
+                    <cell id="182">
+                        <property name="colSpan">4</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">left</property>
+                        <label id="218">
+                            <property name="textAlign">left</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">款号：</text-property>
+                        </label>
+                        <data id="308">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">style_number</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="276">
+                    <property name="height">6mm</property>
+                    <cell id="277">
+                        <property name="colSpan">4</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <label id="243">
+                            <property name="textAlign">left</property>
+                            <text-property name="text">测试项目要求：</text-property>
                         </label>
                     </cell>
-                    <cell id="27"/>
+                </row>
+                <row id="236">
+                    <property name="height">6mm</property>
+                    <cell id="237">
+                        <property name="colSpan">4</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                    </cell>
                 </row>
             </header>
             <detail>
-                <row id="43">
-                    <property name="height">1.5in</property>
-                    <cell id="44">
-                        <extended-item extensionName="BarcodeItem" id="48">
-                            <property name="barcodeType" type="constant">EAN_8</property>
-                            <property name="encoding" type="constant">UTF-8</property>
-                            <property name="content" type="javascript">1111</property>
-                            <property name="width">1.8020833333333333in</property>
-                        </extended-item>
-                        <data id="52">
-                            <property name="resultSetColumn">barcode1</property>
+                <row id="89">
+                    <property name="height">6mm</property>
+                    <cell id="183">
+                        <property name="colSpan">1</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="textAlign">center</property>
+                        <data id="309">
+                            <property name="marginLeft">5pt</property>
+                            <property name="textAlign">left</property>
+                            <property name="resultSetColumn">check_project_desc_1</property>
                         </data>
                     </cell>
-                    <cell id="45"/>
-                    <cell id="46"/>
-                    <cell id="47"/>
+                    <cell id="353">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="textAlign">center</property>
+                        <data id="310">
+                            <property name="marginLeft">5pt</property>
+                            <property name="textAlign">center</property>
+                            <property name="resultSetColumn">check_project_desc_2</property>
+                        </data>
+                    </cell>
+                    <cell id="376">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="textAlign">right</property>
+                        <data id="311">
+                            <property name="marginLeft">5pt</property>
+                            <property name="textAlign">justify</property>
+                            <property name="resultSetColumn">check_project_desc_3</property>
+                        </data>
+                    </cell>
                 </row>
             </detail>
+            <footer>
+                <row id="133">
+                    <property name="height">15mm</property>
+                    <cell id="184">
+                        <property name="colSpan">4</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="244">
+                            <property name="marginTop">5pt</property>
+                            <property name="marginLeft">5pt</property>
+                            <property name="display">inline</property>
+                            <text-property name="text">备注：</text-property>
+                        </label>
+                        <data id="350">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">comments</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="245">
+                    <property name="height">6mm</property>
+                    <cell id="246">
+                        <property name="fontFamily">"宋体"</property>
+                    </cell>
+                    <cell id="247">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                    </cell>
+                </row>
+                <row id="252">
+                    <property name="height">6mm</property>
+                    <cell id="253">
+                        <property name="colSpan">4</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <label id="273">
+                            <property name="display">inline</property>
+                            <text-property name="text">测试周期:</text-property>
+                        </label>
+                        <data id="315">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">check_period_desc</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="259">
+                    <property name="height">6mm</property>
+                    <cell id="260">
+                        <property name="colSpan">4</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <label id="274">
+                            <property name="display">inline</property>
+                            <text-property name="text">纸质版报告书方式:</text-property>
+                        </label>
+                        <data id="316">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">get_book_way_desc</property>
+                        </data>
+                    </cell>
+                </row>
+            </footer>
         </table>
     </body>
 </report>

@@ -1,8 +1,8 @@
 package com.epo.report.event;
 
 import java.awt.image.BufferedImage;
-import java.awt.image.BufferedImageOp;
 import java.io.InputStream;
+import java.math.BigDecimal;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
@@ -15,10 +15,9 @@ import org.eclipse.birt.report.engine.api.script.IReportContext;
 import org.eclipse.birt.report.engine.api.script.ScriptException;
 import org.eclipse.birt.report.engine.api.script.eventadapter.ImageEventAdapter;
 import org.eclipse.birt.report.engine.api.script.instance.IImageInstance;
+import org.eclipse.birt.report.engine.extension.IRowSet;
 import org.imgscalr.Scalr;
-import org.imgscalr.Scalr.Method;
 import org.imgscalr.Scalr.Mode;
-import org.imgscalr.Scalr.Rotation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -73,7 +72,6 @@ public class Birt07ImageEvent extends ImageEventAdapter {
                     inputStream = urlConnection.getInputStream();
                 }
                
-
                 
                     
                     
@@ -107,10 +105,17 @@ public class Birt07ImageEvent extends ImageEventAdapter {
                         unitHeight = unitHMatch.group();
                     }
                     
-                    w = Integer.parseInt(reportImageWidth.replace(unitWidth, ""));
-                    h = Integer.parseInt(reportImageHeight.replace(unitHeight, ""));
-                        
                     
+                    
+                    Double   dpi  = (float) 96/25.4; // 分辨率
+                    Double _w = Double.parseDouble(reportImageWidth.replace(unitWidth, ""));// 模板设置图片的宽度
+                    Double _h = Double.parseDouble(reportImageHeight.replace(unitHeight, ""));// 模板设置图片的高度
+                    
+                    w = new BigDecimal(_w).multiply(new BigDecimal(dpi)).setScale(0, BigDecimal.ROUND_DOWN).intValue();  // 模板设置图片的宽度mm 转换成像素
+                    h = new BigDecimal(_h).multiply(new BigDecimal(dpi)).setScale(0, BigDecimal.ROUND_DOWN).intValue(); // 模板设置图片的高度 mm 转换成像素
+                    //Math.round(Double.parseDouble(reportImageHeight.replace(unitHeight, "")) * dpi );
+                        
+                    logger.info("模板的图片宽度：{};高度{}",w,h);
                     
 //                    BufferedImage small = Scalr.resize(bufferedImage,
 //                            Method.ULTRA_QUALITY,
@@ -131,8 +136,8 @@ public class Birt07ImageEvent extends ImageEventAdapter {
                     
                     
                     
-                    imageInstance.setWidth(small.getWidth()+unitWidth);
-                    imageInstance.setHeight(small.getHeight()+unitHeight);
+                    imageInstance.setWidth(small.getWidth()+"px");
+                    imageInstance.setHeight(small.getHeight()+"px");
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -153,11 +158,11 @@ public class Birt07ImageEvent extends ImageEventAdapter {
         } else {
             float wRatio = ((float)width / (float)image.getWidth());
             float hRatio = ((float)height / (float)image.getHeight());
-            width = Math.min(width, height);
-            height = Math.max(width, height);
-            translationMode = hRatio < wRatio ? Mode.FIT_TO_HEIGHT : Mode.FIT_TO_WIDTH ;
+            
+//            translationMode = hRatio < wRatio ?    Mode.FIT_TO_WIDTH : Mode.FIT_TO_HEIGHT  ;
+            translationMode = width > width ?    Mode.FIT_TO_WIDTH : Mode.FIT_TO_HEIGHT  ;
         }
-        BufferedImage bufferedImage = Scalr.resize(image, translationMode, width, height, null);
+        BufferedImage bufferedImage = Scalr.resize(image, Scalr.Method.SPEED, translationMode,width, height,Scalr.OP_ANTIALIAS);
         
         return bufferedImage;
     }

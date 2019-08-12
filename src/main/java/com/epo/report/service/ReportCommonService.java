@@ -238,8 +238,8 @@ public class ReportCommonService implements ApplicationContextAware  {
        
         if (resultMap != null && !resultMap.isEmpty()) {
             for( Entry<String,  Object> dataMap : resultMap.entrySet()){
-                    System.out.println(dataMap.getKey());
-                    System.out.println(dataMap.getValue().toString());
+//                    System.out.println("xxx"+dataMap.getKey());
+//                    System.out.println(dataMap.getValue().toString());
             	request.setAttribute(dataMap.getKey(), dataMap.getValue());
             }
             

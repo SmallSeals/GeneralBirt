@@ -375,7 +375,7 @@ return true;]]></method>
                         <cell id="3362">
                             <grid id="4">
                                 <property name="height">9.666666666666666in</property>
-                                <property name="width">13.604166666666666in</property>
+                                <property name="width">13.6in</property>
                                 <column id="5">
                                     <property name="width">15mm</property>
                                 </column>
@@ -398,7 +398,7 @@ return true;]]></method>
                                     <property name="width">30mm</property>
                                 </column>
                                 <column id="12">
-                                    <property name="width">8mm</property>
+                                    <property name="width">19.89666666666667mm</property>
                                 </column>
                                 <column id="13">
                                     <property name="width">15mm</property>
@@ -729,9 +729,10 @@ return true;]]></method>
                                                     <property name="borderLeftWidth">1px</property>
                                                     <property name="borderRightStyle">solid</property>
                                                     <property name="borderRightWidth">1px</property>
+                                                    <property name="textAlign">right</property>
                                                     <label id="2813">
                                                         <property name="fontFamily">"宋体"</property>
-                                                        <property name="textAlign">left</property>
+                                                        <property name="textAlign">right</property>
                                                         <text-property name="text">交版日期：</text-property>
                                                     </label>
                                                 </cell>
@@ -856,12 +857,12 @@ return true;]]></method>
                                         <property name="paddingLeft">0pt</property>
                                         <property name="paddingBottom">0pt</property>
                                         <property name="paddingRight">0pt</property>
-                                        <property name="textAlign">left</property>
-                                        <property name="verticalAlign">top</property>
+                                        <property name="textAlign">center</property>
+                                        <property name="verticalAlign">middle</property>
                                         <image id="3630">
                                             <property name="eventHandlerClass">com.epo.report.event.Birt07ImageEvent</property>
-                                            <property name="height">400px</property>
-                                            <property name="width">400px</property>
+                                            <property name="height">128mm</property>
+                                            <property name="width">160mm</property>
                                             <property name="source">url</property>
                                             <expression name="uri" type="javascript">row["pic_url"]</expression>
                                         </image>
