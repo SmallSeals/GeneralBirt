@@ -319,7 +319,6 @@ record =  sresultList.get(scurrentrow);
 row["barcodeImg"] = "http://"+rep.getServerName()+":"+rep.getServerPort()+rep.getContextPath()+"/srm_birt/128generateBarcode?barcode="+record.get("barcode");
 System.out.println("barcodeImg:"+row["barcodeImg"]);
 
-
 spart = record.get("spart");
 if(spart == "10"){
 	row["brand"] = "MO&amp;Co.";
@@ -513,35 +512,37 @@ return true;]]></method>
                     <property name="dataType">string</property>
                 </structure>
                 <structure>
-                    <property name="name">sum_quantity</property>
-                    <expression name="expression" type="javascript">Total.sum(row["quantity"],null,"g2")</expression>
-                    <property name="dataType">string</property>
+                    <property name="name">sumQuantity</property>
+                    <expression name="expression" type="javascript">Total.sum(row["quantity"],null,"g1")</expression>
+                    <property name="dataType">integer</property>
                     <property name="allowExport">true</property>
                 </structure>
             </list-property>
             <property name="pageBreakInterval">200</property>
             <column id="20">
-                <property name="width">38mm</property>
+                <property name="width">34mm</property>
             </column>
             <column id="21">
                 <property name="width">13mm</property>
             </column>
             <column id="22">
-                <property name="width">21mm</property>
+                <property name="width">23mm</property>
             </column>
             <column id="23">
-                <property name="width">20mm</property>
+                <property name="width">22mm</property>
             </column>
             <group id="1530">
-                <property name="groupName">g2</property>
+                <property name="groupName">g1</property>
+                <property name="interval">none</property>
                 <expression name="keyExpr" type="javascript">row["barcode"]</expression>
                 <structure name="toc">
                     <expression name="expressionValue" type="javascript">row["barcode"]</expression>
                 </structure>
+                <property name="repeatHeader">true</property>
                 <property name="hideDetail">false</property>
-                <property name="pageBreakAfter">auto</property>
+                <property name="pageBreakAfter">avoid</property>
                 <property name="pageBreakBefore">always-excluding-first</property>
-                <property name="pageBreakInside">auto</property>
+                <property name="pageBreakInside">avoid</property>
                 <list-property name="sort">
                     <structure>
                         <expression name="key" type="javascript">row["barcode"]</expression>
@@ -556,7 +557,7 @@ return true;]]></method>
                             <property name="colSpan">4</property>
                             <property name="rowSpan">1</property>
                             <data id="149">
-                                <property name="fontSize">24pt</property>
+                                <property name="fontSize">20pt</property>
                                 <property name="fontWeight">bold</property>
                                 <property name="textAlign">center</property>
                                 <property name="resultSetColumn">brand</property>
@@ -613,15 +614,13 @@ return true;]]></method>
                             </data>
                         </cell>
                         <cell id="1575">
-                            <property name="colSpan">2</property>
-                            <property name="rowSpan">1</property>
                             <label id="71">
                                 <property name="textAlign">right</property>
-                                <property name="display">inline</property>
                                 <text-property name="text">净重:</text-property>
                             </label>
+                        </cell>
+                        <cell id="1576">
                             <data id="126">
-                                <property name="display">inline</property>
                                 <property name="resultSetColumn">net_weight</property>
                             </data>
                         </cell>
@@ -642,15 +641,13 @@ return true;]]></method>
                             </data>
                         </cell>
                         <cell id="1570">
-                            <property name="colSpan">2</property>
-                            <property name="rowSpan">1</property>
                             <label id="73">
                                 <property name="textAlign">right</property>
-                                <property name="display">inline</property>
                                 <text-property name="text">毛重:</text-property>
                             </label>
+                        </cell>
+                        <cell id="1571">
                             <data id="125">
-                                <property name="display">inline</property>
                                 <property name="resultSetColumn">gross_weight</property>
                             </data>
                         </cell>
@@ -671,15 +668,13 @@ return true;]]></method>
                             </data>
                         </cell>
                         <cell id="1565">
-                            <property name="colSpan">2</property>
-                            <property name="rowSpan">1</property>
                             <label id="75">
                                 <property name="textAlign">right</property>
-                                <property name="display">inline</property>
                                 <text-property name="text">箱规格:</text-property>
                             </label>
+                        </cell>
+                        <cell id="1566">
                             <data id="129">
-                                <property name="display">inline</property>
                                 <property name="resultSetColumn">packet_spec</property>
                             </data>
                         </cell>
@@ -700,15 +695,13 @@ return true;]]></method>
                             </data>
                         </cell>
                         <cell id="1560">
-                            <property name="colSpan">2</property>
-                            <property name="rowSpan">1</property>
                             <label id="77">
                                 <property name="textAlign">right</property>
-                                <property name="display">inline</property>
                                 <text-property name="text">装箱日期:</text-property>
                             </label>
+                        </cell>
+                        <cell id="1561">
                             <data id="130">
-                                <property name="display">inline</property>
                                 <property name="resultSetColumn">last_update_date</property>
                             </data>
                         </cell>
@@ -716,33 +709,39 @@ return true;]]></method>
                     <row id="1552">
                         <property name="fontFamily">"宋体"</property>
                         <cell id="1553">
-                            <property name="colSpan">2</property>
+                            <property name="colSpan">4</property>
                             <property name="rowSpan">1</property>
-                            <label id="78">
-                                <property name="fontWeight">normal</property>
-                                <property name="textAlign">right</property>
-                                <property name="display">inline</property>
-                                <text-property name="text">款号:</text-property>
-                            </label>
                             <data id="132">
+                                <property name="fontSize">35pt</property>
+                                <property name="fontWeight">bold</property>
                                 <property name="display">inline</property>
                                 <property name="resultSetColumn">style_number</property>
                             </data>
                         </cell>
-                        <cell id="1555"/>
-                        <cell id="1556"/>
                     </row>
-                    <row id="1531">
+                    <row id="1819">
                         <property name="fontFamily">"宋体"</property>
-                        <property name="borderBottomStyle">solid</property>
-                        <property name="borderBottomWidth">thin</property>
-                        <property name="borderLeftStyle">solid</property>
-                        <property name="borderLeftWidth">thin</property>
-                        <property name="borderRightStyle">solid</property>
-                        <property name="borderRightWidth">thin</property>
-                        <property name="borderTopStyle">solid</property>
-                        <property name="borderTopWidth">thin</property>
-                        <cell id="1532">
+                        <cell id="1820">
+                            <property name="colSpan">4</property>
+                            <property name="rowSpan">1</property>
+                            <property name="textAlign">center</property>
+                            <extended-item extensionName="Barcode" id="1818">
+                                <expression name="displayText" type="javascript">row._outer["barcode"]</expression>
+                                <property name="codeType">CODE128</property>
+                                <property name="showCodestring">yes</property>
+                                <property name="fontFamily">"@Yu Gothic UI Semilight"</property>
+                                <property name="fontSize">10pt</property>
+                                <property name="backgroundImageType">embed</property>
+                                <property name="masterPage">Simple MasterPage</property>
+                                <property name="width">50mm</property>
+                                <structure name="toc"/>
+                                <property name="dataSet">Data Set</property>
+                            </extended-item>
+                        </cell>
+                    </row>
+                    <row id="1919">
+                        <property name="fontFamily">"宋体"</property>
+                        <cell id="1920">
                             <property name="borderBottomStyle">solid</property>
                             <property name="borderBottomWidth">thin</property>
                             <property name="borderLeftStyle">solid</property>
@@ -751,12 +750,13 @@ return true;]]></method>
                             <property name="borderRightWidth">thin</property>
                             <property name="borderTopStyle">solid</property>
                             <property name="borderTopWidth">thin</property>
+                            <property name="textAlign">center</property>
                             <label id="108">
                                 <property name="textAlign">center</property>
                                 <text-property name="text">款号</text-property>
                             </label>
                         </cell>
-                        <cell id="1533">
+                        <cell id="1921">
                             <property name="borderBottomStyle">solid</property>
                             <property name="borderBottomWidth">thin</property>
                             <property name="borderLeftStyle">solid</property>
@@ -765,12 +765,13 @@ return true;]]></method>
                             <property name="borderRightWidth">thin</property>
                             <property name="borderTopStyle">solid</property>
                             <property name="borderTopWidth">thin</property>
+                            <property name="textAlign">center</property>
                             <label id="109">
                                 <property name="textAlign">center</property>
                                 <text-property name="text">颜色</text-property>
                             </label>
                         </cell>
-                        <cell id="1534">
+                        <cell id="1922">
                             <property name="borderBottomStyle">solid</property>
                             <property name="borderBottomWidth">thin</property>
                             <property name="borderLeftStyle">solid</property>
@@ -779,12 +780,22 @@ return true;]]></method>
                             <property name="borderRightWidth">thin</property>
                             <property name="borderTopStyle">solid</property>
                             <property name="borderTopWidth">thin</property>
+                            <property name="textAlign">center</property>
                             <label id="110">
                                 <property name="textAlign">center</property>
                                 <text-property name="text">尺码</text-property>
                             </label>
                         </cell>
-                        <cell id="1535">
+                        <cell id="1923">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">thin</property>
+                            <property name="textAlign">center</property>
                             <label id="111">
                                 <property name="textAlign">center</property>
                                 <text-property name="text">数量</text-property>
@@ -793,7 +804,7 @@ return true;]]></method>
                     </row>
                 </header>
                 <footer>
-                    <row id="1536">
+                    <row id="1924">
                         <property name="fontFamily">"宋体"</property>
                         <property name="borderBottomStyle">solid</property>
                         <property name="borderBottomWidth">thin</property>
@@ -803,38 +814,37 @@ return true;]]></method>
                         <property name="borderRightWidth">thin</property>
                         <property name="borderTopStyle">solid</property>
                         <property name="borderTopWidth">thin</property>
-                        <cell id="1537">
+                        <cell id="1925">
+                            <property name="borderBottomStyle">solid</property>
+                            <property name="borderBottomWidth">thin</property>
+                            <property name="borderLeftStyle">solid</property>
+                            <property name="borderLeftWidth">thin</property>
+                            <property name="borderRightStyle">solid</property>
+                            <property name="borderRightWidth">thin</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">thin</property>
+                            <property name="paddingTop">4pt</property>
+                            <property name="paddingBottom">4pt</property>
                             <label id="1529">
                                 <property name="fontFamily">"宋体"</property>
                                 <property name="textAlign">center</property>
                                 <text-property name="text">合计</text-property>
                             </label>
                         </cell>
-                        <cell id="1538"/>
-                        <cell id="1539"/>
-                        <cell id="1540">
-                            <data id="1528">
-                                <property name="textAlign">center</property>
-                                <property name="resultSetColumn">sum_quantity</property>
-                            </data>
-                        </cell>
-                    </row>
-                    <row id="1796">
-                        <property name="fontFamily">"宋体"</property>
-                        <cell id="1797">
-                            <property name="colSpan">4</property>
-                            <property name="rowSpan">1</property>
+                        <cell id="1926">
                             <property name="paddingTop">4pt</property>
                             <property name="paddingBottom">4pt</property>
-                            <property name="textAlign">center</property>
-                            <image id="1795">
-                                <property name="masterPage">Simple MasterPage</property>
-                                <property name="showIfBlank">true</property>
-                                <property name="height">15mm</property>
-                                <property name="width">50mm</property>
-                                <property name="source">url</property>
-                                <expression name="uri" type="javascript">row["barcodeImg"]</expression>
-                            </image>
+                        </cell>
+                        <cell id="1927">
+                            <property name="paddingTop">4pt</property>
+                            <property name="paddingBottom">4pt</property>
+                        </cell>
+                        <cell id="1928">
+                            <property name="paddingTop">4pt</property>
+                            <property name="paddingBottom">4pt</property>
+                            <data id="1931">
+                                <property name="resultSetColumn">sumQuantity</property>
+                            </data>
                         </cell>
                     </row>
                     <row id="1801">
@@ -842,6 +852,8 @@ return true;]]></method>
                         <cell id="1802">
                             <property name="colSpan">4</property>
                             <property name="rowSpan">1</property>
+                            <property name="fontSize">16pt</property>
+                            <property name="fontWeight">bold</property>
                             <property name="paddingTop">4pt</property>
                             <property name="paddingBottom">4pt</property>
                             <label id="99">
@@ -860,6 +872,8 @@ return true;]]></method>
                         <cell id="1807">
                             <property name="colSpan">4</property>
                             <property name="rowSpan">1</property>
+                            <property name="fontSize">16pt</property>
+                            <property name="fontWeight">bold</property>
                             <property name="paddingTop">4pt</property>
                             <property name="paddingBottom">4pt</property>
                             <label id="100">
@@ -878,6 +892,8 @@ return true;]]></method>
                         <cell id="1812">
                             <property name="colSpan">4</property>
                             <property name="rowSpan">1</property>
+                            <property name="fontSize">16pt</property>
+                            <property name="fontWeight">bold</property>
                             <property name="paddingTop">4pt</property>
                             <property name="paddingBottom">4pt</property>
                             <label id="101">
@@ -896,6 +912,8 @@ return true;]]></method>
                         <cell id="1817">
                             <property name="colSpan">4</property>
                             <property name="rowSpan">1</property>
+                            <property name="fontSize">16pt</property>
+                            <property name="fontWeight">bold</property>
                             <property name="paddingTop">4pt</property>
                             <property name="paddingBottom">4pt</property>
                             <label id="102">
@@ -921,6 +939,7 @@ return true;]]></method>
                     <property name="borderRightWidth">thin</property>
                     <property name="borderTopStyle">solid</property>
                     <property name="borderTopWidth">thin</property>
+                    <property name="pageBreakInside">auto</property>
                     <property name="height">6mm</property>
                     <cell id="1548">
                         <property name="borderBottomStyle">solid</property>

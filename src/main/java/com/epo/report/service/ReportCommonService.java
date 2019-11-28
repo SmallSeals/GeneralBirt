@@ -110,9 +110,12 @@ public class ReportCommonService implements ApplicationContextAware  {
               excelRenderOption = new EXCELRenderOption(); 
              excelRenderOption.setOutputFormat("xlsx");
              excelRenderOption.setOption( IExcelRenderOption.OFFICE_VERSION, "office2007");
+             excelRenderOption.setImageHandler(new HTMLServerImageHandler());
+             
             excelRenderOption.setOption(ExcelEmitter.SINGLE_SHEET_PAGE_BREAKS ,"true");
             options.setOption(ExcelEmitter.DISPLAYROWCOLHEADINGS_PROP, false);
              excelRenderOption.setOption(IRenderOption.EMITTER_ID,"uk.co.spudsoft.birt.emitters.excel.XlsxEmitter");
+//             excelRenderOption.setOption(IRenderOption.EMITTER_ID,"org.eclipse.birt.report.engine.emitter.nativexls");
 
             break;
         default:
@@ -208,13 +211,15 @@ public class ReportCommonService implements ApplicationContextAware  {
             response.setContentType(" application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
             response.setHeader("Content-Disposition",
                     "inline; filename=epo.xlsx");
-            
+           
               excelRenderOption = new EXCELRenderOption(); 
              excelRenderOption.setOutputFormat("xlsx");
+             excelRenderOption.setImageHandler(new HTMLServerImageHandler());
              excelRenderOption.setOption( IExcelRenderOption.OFFICE_VERSION, "office2007");
             excelRenderOption.setOption(ExcelEmitter.SINGLE_SHEET_PAGE_BREAKS ,"true");
             options.setOption(ExcelEmitter.DISPLAYROWCOLHEADINGS_PROP, false);
-             excelRenderOption.setOption(IRenderOption.EMITTER_ID,"uk.co.spudsoft.birt.emitters.excel.XlsxEmitter");
+            excelRenderOption.setOption(IRenderOption.EMITTER_ID,"uk.co.spudsoft.birt.emitters.excel.XlsxEmitter");
+//             excelRenderOption.setOption(IRenderOption.EMITTER_ID,"org.eclipse.birt.report.engine.emitter.nativexls");
 
             break;
         default:

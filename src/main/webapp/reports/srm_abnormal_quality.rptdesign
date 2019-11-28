@@ -1,0 +1,1820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">120</property>
+    <data-sources>
+        <script-data-source name="Data Source" id="1523"/>
+    </data-sources>
+    <data-sets>
+        <script-data-set name="Data Set" id="1524">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">satnr</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">vendor_name</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">style_type</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">sum_quantity</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">qas_date</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">qas_remark</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">qas_tracking_matter</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">qas_brand_m</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">qas_brand_e</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">qas_brand_l</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">qas_brand_c</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">qas_dpp</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">qas_tl</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">qas_arrival</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">qas_cc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">qas_store</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">qas_others</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">process_tracking_id</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">satnr</property>
+                </structure>
+                <structure>
+                    <property name="columnName">vendor_name</property>
+                </structure>
+                <structure>
+                    <property name="columnName">style_type</property>
+                </structure>
+                <structure>
+                    <property name="columnName">sum_quantity</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_date</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_remark</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_tracking_matter</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_brand_m</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_brand_e</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_brand_l</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_brand_c</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_dpp</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_tl</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_arrival</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_cc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_store</property>
+                </structure>
+                <structure>
+                    <property name="columnName">qas_others</property>
+                </structure>
+                <structure>
+                    <property name="columnName">process_tracking_id</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">satnr</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">vendor_name</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">style_type</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">sum_quantity</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">qas_date</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">qas_remark</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">qas_tracking_matter</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">qas_brand_m</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">qas_brand_e</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">qas_brand_l</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">qas_brand_c</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">qas_dpp</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">qas_tl</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">qas_arrival</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">qas_cc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">qas_store</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">qas_others</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">process_tracking_id</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[
+importPackage(Packages.java.lang);
+
+rep=reportContext.getHttpServletRequest();
+header = rep.getAttribute("header");
+
+System.out.println("header:");
+stotalrows = header.size();
+
+scurrentrow=0;
+
+]]></method>
+            <method name="fetch"><![CDATA[
+if(scurrentrow >= stotalrows){
+	return false;
+}
+
+record =  header.get(scurrentrow);
+
+
+row["process_tracking_id"] = record.get("process_tracking_id"); // id
+row["vendor_name"] = record.get("vendor_name"); // 加工厂  供应商
+row["satnr"] = record.get("satnr"); //款号
+row["style_type"] = record.get("style_type");//款式描述
+row["sum_quantity"] = record.get("sum_quantity");//数量
+row["qas_date"] = record.get("qas_date");//填制日期
+row["qas_remark"] = record.get("qas_remark");//问题描述
+row["qas_tracking_matter"] = record.get("qas_tracking_matter");//后续跟踪事项
+row["qas_brand_m"] =  "MO&amp;CO " + ( record.get("qas_brand_m") =='Y' ? "√" :"口"); // mo&amp;co
+row["qas_brand_e"] = "ED " + ( record.get("qas_brand_e")=='Y' ? "√" :"口"); // ed
+row["qas_brand_l"] =  "LM "+ ( record.get("qas_brand_l")=='Y' ? "√" :"口"); //LM 
+row["qas_brand_c"] = "CG "+(  record.get("qas_brand_c")=='Y' ? "√" :"口"); //CG
+row["qas_dpp"] = "生产过程中 "+ ( record.get("qas_dpp")=='Y' ? "√" :"口"); // 生产过程中
+row["qas_tl"] = "尾期检验 " +(  record.get("qas_tl")=='Y' ? "√" :"口"); //  尾期检验
+row["qas_arrival"] = "入仓 " +(  record.get("qas_arrival")=='Y' ? "√" :"口"); //入仓
+row["qas_cc"] = "客户投诉 "  + ( record.get("qas_cc")=='Y' ? "√" :"口"); // 客户投诉
+row["qas_store"] = "店铺(巡店) "+( record.get("qas_store")=='Y' ? "√" :"口"); //店铺(巡店)
+row["qas_others"] = "其它 "+( record.get("qas_others")=='Y' ? "√" :"口"); //其它
+
+
+
+
+
+scurrentrow++;
+return true;]]></method>
+            <method name="close"><![CDATA[header=null;]]></method>
+        </script-data-set>
+        <script-data-set name="Data Set1" id="1574">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">0</property>
+                    <property name="name">sys_user_desc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">analysis</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">sys_user_desc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">analysis</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">sys_user_desc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">analysis</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[
+importPackage(Packages.java.lang);
+
+rep=reportContext.getHttpServletRequest();
+association = rep.getAttribute("association");
+
+stotalrows = association.size();
+
+scurrentrow=0;]]></method>
+            <method name="fetch"><![CDATA[
+if(scurrentrow >= stotalrows){
+	return false;
+}
+
+record =  association.get(scurrentrow);
+
+
+row["sys_user_desc"] = record.get("sys_user_desc"); // 关联方
+row["analysis"] = record.get("analysis"); // 分析
+
+
+
+
+
+
+scurrentrow++;
+return true;]]></method>
+            <method name="close"><![CDATA[association=null;]]></method>
+        </script-data-set>
+        <script-data-set name="Data Set2" id="1628">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">0</property>
+                    <property name="name">measure</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">complete_time</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">responsible</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">description</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">remark</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">number</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">measure</property>
+                </structure>
+                <structure>
+                    <property name="columnName">complete_time</property>
+                </structure>
+                <structure>
+                    <property name="columnName">responsible</property>
+                </structure>
+                <structure>
+                    <property name="columnName">description</property>
+                </structure>
+                <structure>
+                    <property name="columnName">remark</property>
+                </structure>
+                <structure>
+                    <property name="columnName">number</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">measure</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">complete_time</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">responsible</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">description</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">remark</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">number</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[
+importPackage(Packages.java.lang);
+
+rep=reportContext.getHttpServletRequest();
+remedy = rep.getAttribute("remedy");
+
+stotalrows = remedy.size();
+
+scurrentrow=0;]]></method>
+            <method name="fetch"><![CDATA[
+if(scurrentrow >= stotalrows){
+	return false;
+}
+
+record =  remedy.get(scurrentrow);
+
+
+row["measure"] = record.get("measure"); 
+row["complete_time"] = record.get("complete_time");
+row["responsible"] = record.get("responsible");
+row["description"] = record.get("description");
+row["remark"] = record.get("remark");
+row["type"] = record.get("type");
+row["number"] = scurrentrow++;
+
+
+
+scurrentrow++;
+return true;]]></method>
+            <method name="close"><![CDATA[sresultList=null;]]></method>
+        </script-data-set>
+        <script-data-set name="Data Set3" id="1629">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">0</property>
+                    <property name="name">measure</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">complete_time</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">responsible</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">description</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">remark</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">number</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">measure</property>
+                </structure>
+                <structure>
+                    <property name="columnName">complete_time</property>
+                </structure>
+                <structure>
+                    <property name="columnName">responsible</property>
+                </structure>
+                <structure>
+                    <property name="columnName">description</property>
+                </structure>
+                <structure>
+                    <property name="columnName">remark</property>
+                </structure>
+                <structure>
+                    <property name="columnName">number</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">measure</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">complete_time</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">responsible</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">description</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">remark</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">number</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[
+importPackage(Packages.java.lang);
+
+
+rep=reportContext.getHttpServletRequest();
+prevention = rep.getAttribute("prevention");
+ptotalrows = prevention.size();
+pcurrentrow=0;]]></method>
+            <method name="fetch"><![CDATA[
+if(pcurrentrow >= ptotalrows){
+	return false;
+}
+
+record =  prevention.get(pcurrentrow);
+
+
+
+row["measure"] = record.get("measure"); 
+row["complete_time"] = record.get("complete_time");
+row["responsible"] = record.get("responsible");
+row["description"] = record.get("description");
+row["remark"] = record.get("remark");
+row["type"] = record.get("type");
+row["number"] = scurrentrow++;
+
+
+
+pcurrentrow++;
+return true;]]></method>
+            <method name="close"><![CDATA[ptotalrows=null;]]></method>
+        </script-data-set>
+    </data-sets>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="type">custom</property>
+            <property name="height">297mm</property>
+            <property name="width">210mm</property>
+            <page-header>
+                <grid id="4">
+                    <column id="5"/>
+                    <column id="6">
+                        <property name="width">4.271in</property>
+                    </column>
+                    <column id="7">
+                        <property name="width">0.865in</property>
+                    </column>
+                    <column id="8">
+                        <property name="width">0.854in</property>
+                    </column>
+                    <row id="9">
+                        <property name="verticalAlign">bottom</property>
+                        <cell id="10">
+                            <text id="256">
+                                <property name="fontSize">12pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="paddingTop">8pt</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[EPO Fashion Co.,Ltd.]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="11">
+                            <text id="257">
+                                <property name="fontFamily">"楷体"</property>
+                                <property name="fontSize">18pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[广州爱帛服饰有限公司]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="12">
+                            <text id="258">
+                                <property name="fontFamily">"宋体"</property>
+                                <property name="paddingTop">8pt</property>
+                                <property name="textAlign">right</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[打印日期：]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="13">
+                            <text id="1175">
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<value-of>
+ today = new Date();
+     year = today.getFullYear();
+     month = today.getMonth() + 1;
+     day = today.getDate();
+ day = year+"-"+month+"-"+day;
+</value-of>]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table id="1176">
+            <property name="dataSet">Data Set</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">satnr</property>
+                    <text-property name="displayName">satnr</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["satnr"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">vendor_name</property>
+                    <text-property name="displayName">vendor_name</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["vendor_name"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">style_type</property>
+                    <text-property name="displayName">style_type</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["style_type"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">sum_quantity</property>
+                    <text-property name="displayName">sum_quantity</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["sum_quantity"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_date</property>
+                    <text-property name="displayName">qas_date</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_date"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_remark</property>
+                    <text-property name="displayName">qas_remark</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_remark"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_tracking_matter</property>
+                    <text-property name="displayName">qas_tracking_matter</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_tracking_matter"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_brand_m</property>
+                    <text-property name="displayName">qas_brand_m</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_brand_m"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_brand_e</property>
+                    <text-property name="displayName">qas_brand_e</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_brand_e"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_brand_l</property>
+                    <text-property name="displayName">qas_brand_l</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_brand_l"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_brand_c</property>
+                    <text-property name="displayName">qas_brand_c</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_brand_c"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_dpp</property>
+                    <text-property name="displayName">qas_dpp</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_dpp"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_tl</property>
+                    <text-property name="displayName">qas_tl</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_tl"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_arrival</property>
+                    <text-property name="displayName">qas_arrival</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_arrival"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_cc</property>
+                    <text-property name="displayName">qas_cc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_cc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_store</property>
+                    <text-property name="displayName">qas_store</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_store"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">qas_others</property>
+                    <text-property name="displayName">qas_others</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["qas_others"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">process_tracking_id</property>
+                    <text-property name="displayName">process_tracking_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["process_tracking_id"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1424">
+                <property name="width">9mm</property>
+            </column>
+            <column id="1425">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1426">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1427">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1428">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1429">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1430">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1431">
+                <property name="width">18mm</property>
+            </column>
+            <column id="1432">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1433">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1434">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1435">
+                <property name="width">17mm</property>
+            </column>
+            <header>
+                <row id="1436">
+                    <property name="height">6mm</property>
+                    <cell id="1437">
+                        <property name="colSpan">5</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="1508">
+                            <property name="textAlign">left</property>
+                            <property name="display">block</property>
+                            <text-property name="text">判断人:(QC经理，QA经理,生产经理)</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1501">
+                        <property name="colSpan">4</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="1512">
+                            <property name="display">inline</property>
+                            <text-property name="text">编号:</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1494">
+                        <property name="colSpan">3</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="1513">
+                            <property name="display">inline</property>
+                            <text-property name="text">填表日期:</text-property>
+                        </label>
+                        <data id="1526">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">qas_date</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="1449">
+                    <property name="height">6mm</property>
+                    <cell id="1450">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">2</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="verticalAlign">middle</property>
+                        <label id="1514">
+                            <text-property name="text">异常类型</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1452">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1527">
+                            <property name="resultSetColumn">qas_brand_m</property>
+                        </data>
+                    </cell>
+                    <cell id="1454">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1528">
+                            <property name="resultSetColumn">qas_brand_e</property>
+                        </data>
+                    </cell>
+                    <cell id="1456">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1529">
+                            <property name="resultSetColumn">qas_brand_l</property>
+                        </data>
+                    </cell>
+                    <cell id="1458">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1530">
+                            <property name="resultSetColumn">qas_brand_c</property>
+                        </data>
+                    </cell>
+                    <cell id="1460">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1531">
+                            <property name="resultSetColumn">qas_others</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="1462">
+                    <property name="height">6mm</property>
+                    <cell id="1465">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1532">
+                            <property name="resultSetColumn">qas_dpp</property>
+                        </data>
+                    </cell>
+                    <cell id="1467">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1533">
+                            <property name="resultSetColumn">qas_tl</property>
+                        </data>
+                    </cell>
+                    <cell id="1469">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1534">
+                            <property name="resultSetColumn">qas_arrival</property>
+                        </data>
+                    </cell>
+                    <cell id="1471">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1535">
+                            <property name="resultSetColumn">qas_cc</property>
+                        </data>
+                    </cell>
+                    <cell id="1473">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1536">
+                            <property name="resultSetColumn">qas_store</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="1177">
+                    <property name="height">6mm</property>
+                    <cell id="1178">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="1515">
+                            <property name="display">inline</property>
+                            <text-property name="text">款号：</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1557">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <data id="1537">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">satnr</property>
+                        </data>
+                    </cell>
+                    <cell id="1182">
+                        <property name="colSpan">2</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="1518">
+                            <property name="textAlign">right</property>
+                            <text-property name="text">款式描述:</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1184">
+                        <property name="colSpan">4</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <data id="1540">
+                            <property name="resultSetColumn">style_type</property>
+                        </data>
+                    </cell>
+                    <cell id="1188">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="1519">
+                            <text-property name="text">数量:</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1189">
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <data id="1541">
+                            <property name="resultSetColumn">sum_quantity</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="1543">
+                    <property name="height">6mm</property>
+                    <cell id="1544">
+                        <property name="colSpan">6</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="1516">
+                            <property name="display">inline</property>
+                            <text-property name="text">加工厂:</text-property>
+                        </label>
+                        <data id="1538">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">vendor_name</property>
+                        </data>
+                    </cell>
+                    <cell id="1550">
+                        <property name="colSpan">6</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="1517">
+                            <property name="display">inline</property>
+                            <text-property name="text">供应商:</text-property>
+                        </label>
+                        <data id="1539">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">vendor_name</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="1475">
+                    <property name="height">33mm</property>
+                    <cell id="1476">
+                        <property name="colSpan">12</property>
+                        <property name="rowSpan">1</property>
+                        <property name="fontFamily">"宋体"</property>
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <property name="textAlign">left</property>
+                        <label id="1520">
+                            <property name="display">inline</property>
+                            <text-property name="text">问题描述:</text-property>
+                        </label>
+                        <data id="1542">
+                            <property name="display">inline</property>
+                            <property name="resultSetColumn">qas_remark</property>
+                        </data>
+                    </cell>
+                </row>
+            </header>
+        </table>
+        <table id="1614">
+            <property name="fontFamily">"宋体"</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">thin</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">thin</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">thin</property>
+            <property name="dataSet">Data Set1</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">sys_user_desc</property>
+                    <text-property name="displayName">sys_user_desc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["sys_user_desc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">analysis</property>
+                    <text-property name="displayName">analysis</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["analysis"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1624">
+                <property name="width">26mm</property>
+            </column>
+            <column id="1625"/>
+            <header>
+                <row id="1615">
+                    <property name="height">6mm</property>
+                    <cell id="1616">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1521">
+                            <text-property name="text">关联方</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1617">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1522">
+                            <text-property name="text">分析</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </header>
+            <detail>
+                <row id="1618">
+                    <property name="verticalAlign">middle</property>
+                    <cell id="1619">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1627">
+                            <property name="resultSetColumn">sys_user_desc</property>
+                        </data>
+                    </cell>
+                    <cell id="1620">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <property name="borderTopStyle">solid</property>
+                        <property name="borderTopWidth">thin</property>
+                        <data id="1626">
+                            <property name="resultSetColumn">analysis</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+        <table id="1630">
+            <property name="fontFamily">"宋体"</property>
+            <property name="dataSet">Data Set2</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">measure</property>
+                    <text-property name="displayName">measure</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["measure"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">complete_time</property>
+                    <text-property name="displayName">complete_time</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["complete_time"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">responsible</property>
+                    <text-property name="displayName">responsible</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["responsible"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">description</property>
+                    <text-property name="displayName">description</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["description"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">remark</property>
+                    <text-property name="displayName">remark</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["remark"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">number</property>
+                    <text-property name="displayName">number</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["number"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1664">
+                <property name="width">9mm</property>
+            </column>
+            <column id="1665">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1666">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1667">
+                <property name="width">100mm</property>
+            </column>
+            <column id="1668">
+                <property name="width">20mm</property>
+            </column>
+            <column id="1669">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1673">
+                <property name="width">17mm</property>
+            </column>
+            <header>
+                <row id="1631">
+                    <cell id="1632">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1691">
+                            <text-property name="text">补救</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1634">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1692">
+                            <text-property name="text">序号</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1636">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1693">
+                            <text-property name="text">措施</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1638">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1694">
+                            <text-property name="text">说明</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1640">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1695">
+                            <text-property name="text">完成时间</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1642">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1696">
+                            <text-property name="text">责任人</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1670">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1697">
+                            <text-property name="text">备注</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </header>
+            <detail>
+                <row id="1644">
+                    <property name="verticalAlign">middle</property>
+                    <cell id="1645">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                    </cell>
+                    <cell id="1647">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1698">
+                            <property name="resultSetColumn">number</property>
+                        </data>
+                    </cell>
+                    <cell id="1649">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1699">
+                            <property name="resultSetColumn">measure</property>
+                        </data>
+                    </cell>
+                    <cell id="1651">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1700">
+                            <property name="resultSetColumn">description</property>
+                        </data>
+                    </cell>
+                    <cell id="1653">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1701">
+                            <property name="resultSetColumn">complete_time</property>
+                        </data>
+                    </cell>
+                    <cell id="1655">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1702">
+                            <property name="resultSetColumn">responsible</property>
+                        </data>
+                    </cell>
+                    <cell id="1671">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1703">
+                            <property name="resultSetColumn">remark</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+        <table id="1704">
+            <property name="fontFamily">"宋体"</property>
+            <property name="dataSet">Data Set3</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">measure</property>
+                    <text-property name="displayName">measure</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["measure"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">complete_time</property>
+                    <text-property name="displayName">complete_time</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["complete_time"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">responsible</property>
+                    <text-property name="displayName">responsible</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["responsible"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">description</property>
+                    <text-property name="displayName">description</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["description"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">remark</property>
+                    <text-property name="displayName">remark</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["remark"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">number</property>
+                    <text-property name="displayName">number</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["number"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1734">
+                <property name="width">9mm</property>
+            </column>
+            <column id="1735">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1736">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1737">
+                <property name="width">100mm</property>
+            </column>
+            <column id="1738">
+                <property name="width">20mm</property>
+            </column>
+            <column id="1739">
+                <property name="width">17mm</property>
+            </column>
+            <column id="1740">
+                <property name="width">17mm</property>
+            </column>
+            <header>
+                <row id="1705">
+                    <cell id="1706">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1707">
+                            <text-property name="text">预防</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1708">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1709">
+                            <text-property name="text">序号</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1710">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1711">
+                            <text-property name="text">措施</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1712">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1713">
+                            <text-property name="text">说明</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1714">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1715">
+                            <text-property name="text">完成时间</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1716">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1717">
+                            <text-property name="text">责任人</text-property>
+                        </label>
+                    </cell>
+                    <cell id="1718">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <label id="1719">
+                            <text-property name="text">备注</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </header>
+            <detail>
+                <row id="1720">
+                    <property name="verticalAlign">middle</property>
+                    <cell id="1721">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                    </cell>
+                    <cell id="1722">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1747">
+                            <property name="resultSetColumn">number</property>
+                        </data>
+                    </cell>
+                    <cell id="1724">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1748">
+                            <property name="resultSetColumn">measure</property>
+                        </data>
+                    </cell>
+                    <cell id="1726">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1749">
+                            <property name="resultSetColumn">description</property>
+                        </data>
+                    </cell>
+                    <cell id="1728">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1750">
+                            <property name="resultSetColumn">complete_time</property>
+                        </data>
+                    </cell>
+                    <cell id="1730">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1751">
+                            <property name="resultSetColumn">responsible</property>
+                        </data>
+                    </cell>
+                    <cell id="1732">
+                        <property name="borderBottomStyle">solid</property>
+                        <property name="borderBottomWidth">thin</property>
+                        <property name="borderLeftStyle">solid</property>
+                        <property name="borderLeftWidth">thin</property>
+                        <property name="borderRightStyle">solid</property>
+                        <property name="borderRightWidth">thin</property>
+                        <data id="1752">
+                            <property name="resultSetColumn">remark</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+        </table>
+        <grid id="1610">
+            <column id="1611"/>
+            <row id="1612">
+                <property name="borderBottomStyle">solid</property>
+                <property name="borderBottomWidth">thin</property>
+                <property name="borderLeftStyle">solid</property>
+                <property name="borderLeftWidth">thin</property>
+                <property name="borderRightStyle">solid</property>
+                <property name="borderRightWidth">thin</property>
+                <property name="height">33mm</property>
+                <cell id="1613">
+                    <property name="fontFamily">"宋体"</property>
+                    <table id="1753">
+                        <property name="dataSet">Data Set</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">qas_tracking_matter</property>
+                                <text-property name="displayName">qas_tracking_matter</text-property>
+                                <expression name="expression" type="javascript">dataSetRow["qas_tracking_matter"]</expression>
+                                <property name="dataType">string</property>
+                            </structure>
+                        </list-property>
+                        <column id="1760"/>
+                        <header>
+                            <row id="1754">
+                                <property name="height">33mm</property>
+                                <cell id="1755">
+                                    <property name="textAlign">left</property>
+                                    <label id="1559">
+                                        <property name="display">block</property>
+                                        <text-property name="text">后续跟踪事项:（什么时间完成什么事件，谁来做？怎么做？）</text-property>
+                                    </label>
+                                    <data id="1761">
+                                        <property name="display">inline</property>
+                                        <property name="resultSetColumn">qas_tracking_matter</property>
+                                    </data>
+                                </cell>
+                            </row>
+                        </header>
+                    </table>
+                </cell>
+            </row>
+        </grid>
+    </body>
+</report>

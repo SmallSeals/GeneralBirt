@@ -177,7 +177,7 @@ public class SrmPrintController {
 
 	}
 	
-	@RequestMapping("test")
+	@RequestMapping("gttPrint")
 	public void barcode2(@RequestParam(value = "moco_gtt_check_header_id", required = true) Long moco_gtt_check_header_id,
 			HttpServletResponse response, HttpServletRequest request) throws Exception {
 		Properties properties = new Properties();
@@ -239,22 +239,31 @@ public class SrmPrintController {
 			Object success = gttItemsJsonObject.get("success");
 			if (Boolean.TRUE.equals(success)) {
 				JSONObject resultJsonObject = gttItemsJsonObject.getJSONObject("result");
-				Map<String,Object> itmesMap = new HashMap<String,Object>();
+				Map<String,Object> itmesMap = null;
 				JSONArray itmesMapJsonArray = new JSONArray();
 				JSONArray recordJsonArray = resultJsonObject.getJSONArray("record");
-				for(int i=1;i<=recordJsonArray.size();i++){
-					int m = i%3;
-					int x =  (m==0 ? 3:m);
-					JSONObject  checkProjectDescObject =  recordJsonArray.getJSONObject(i-1);
-					itmesMap.put("check_project_desc_"+x , "√"+checkProjectDescObject.getString("check_project_desc") );
-					if(m==0){
-						Map<String,Object> dataMap = new HashMap<String,Object>();
-						dataMap.putAll(itmesMap);
-						itmesMapJsonArray.add(dataMap);
+				if(recordJsonArray != null ){
+					for(int i=1;i<=recordJsonArray.size();i++ ){
+						int m = i%3;
+						int x =  (m==0 ? 3:m);
+						if(m ==1 ){
+							itmesMap =    new HashMap<String,Object>();
+						}
+						JSONObject  checkProjectDescObject =  recordJsonArray.getJSONObject(i-1);
+						itmesMap.put("check_project_desc_"+x , "√"+checkProjectDescObject.getString("check_project_desc") );
+						if(m==0 || i == recordJsonArray.size()){
+							Map<String,Object> dataMap = new HashMap<String,Object>();
+							dataMap.putAll(itmesMap);
+							itmesMapJsonArray.add(dataMap);
+						}
 					}
 				}
+				
 				if(itmesMapJsonArray.isEmpty()){
 					Map<String,Object> dataMap = new HashMap<String,Object>();
+					if(itmesMap == null ){
+						itmesMap =    new HashMap<String,Object>();
+					}
 					dataMap.putAll(itmesMap);
 					itmesMapJsonArray.add(dataMap);
 				}

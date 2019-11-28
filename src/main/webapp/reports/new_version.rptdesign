@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.6.0.v201606072122</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">120</property>
+    <data-sources>
+        <script-data-source name="Data Source" id="1189"/>
+    </data-sources>
+    <data-sets>
+        <script-data-set name="Data Set" id="1190">
+            <list-property name="resultSetHints">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">index</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">title</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">text_line</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">zzbrand</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">zzstyle</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">maktx</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">zzbc</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">menge</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">pic_url</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">zzdger</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">crdat</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">zzbdtdes</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">revis_d</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">zzgendes</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">zzshaped</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">zlld</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">vtext</property>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">index</property>
+                </structure>
+                <structure>
+                    <property name="columnName">title</property>
+                </structure>
+                <structure>
+                    <property name="columnName">text_line</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzbrand</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzstyle</property>
+                </structure>
+                <structure>
+                    <property name="columnName">maktx</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzbc</property>
+                </structure>
+                <structure>
+                    <property name="columnName">menge</property>
+                </structure>
+                <structure>
+                    <property name="columnName">pic_url</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzdger</property>
+                </structure>
+                <structure>
+                    <property name="columnName">crdat</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzbdtdes</property>
+                </structure>
+                <structure>
+                    <property name="columnName">revis_d</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzgendes</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zzshaped</property>
+                </structure>
+                <structure>
+                    <property name="columnName">zlld</property>
+                </structure>
+                <structure>
+                    <property name="columnName">vtext</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">index</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">title</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">text_line</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">zzbrand</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">zzstyle</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">maktx</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">zzbc</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">menge</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">pic_url</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">zzdger</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">crdat</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">zzbdtdes</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">revis_d</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">zzgendes</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">zzshaped</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">zlld</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">vtext</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <method name="open"><![CDATA[
+rep=reportContext.getHttpServletRequest();
+sresultList = rep.getAttribute("data");
+stotalrows = sresultList.size();
+scurrentrow=0;
+]]></method>
+            <method name="fetch"><![CDATA[
+if(scurrentrow >= stotalrows){
+return false;
+}
+row["index"] = sresultList.get(scurrentrow).get("index");;
+row["title"] = sresultList.get(scurrentrow).get("title");
+row["text_line"] = sresultList.get(scurrentrow).get("text_line");
+
+row["zzbrand"] = sresultList.get(scurrentrow).get("zzbrand");
+row["zzstyle"] = sresultList.get(scurrentrow).get("zzstyle");
+row["maktx"] = sresultList.get(scurrentrow).get("maktx");
+row["zzbc"] = sresultList.get(scurrentrow).get("zzbc");
+row["menge"] = sresultList.get(scurrentrow).get("menge");
+row["pic_url"] = sresultList.get(scurrentrow).get("pic_url");
+row["zzdger"] = sresultList.get(scurrentrow).get("zzdger");
+row["crdat"] = sresultList.get(scurrentrow).get("crdat");
+row["revis_d"] = sresultList.get(scurrentrow).get("revis_d");
+row["zzbdtdes"] = sresultList.get(scurrentrow).get("zzbdtdes");
+row["zzshaped"] = sresultList.get(scurrentrow).get("zzshaped");
+row["zzgendes"] = sresultList.get(scurrentrow).get("zzgendes");
+row["zlld"] = sresultList.get(scurrentrow).get("zlld");
+row["vtext"] = sresultList.get(scurrentrow).get("vtext");
+  
+scurrentrow++;
+return true;]]></method>
+            <method name="close"><![CDATA[
+sresultList = null;]]></method>
+        </script-data-set>
+    </data-sets>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="type">custom</property>
+            <property name="topMargin">8mm</property>
+            <property name="height">256mm</property>
+            <property name="width">364mm</property>
+            <property name="headerHeight">10mm</property>
+            <property name="footerHeight">0mm</property>
+            <page-header>
+                <grid id="246">
+                    <property name="verticalAlign">middle</property>
+                    <property name="width">352mm</property>
+                    <column id="247">
+                        <property name="width">1.7916666666666667in</property>
+                    </column>
+                    <column id="248">
+                        <property name="width">250mm</property>
+                    </column>
+                    <column id="249">
+                        <property name="width">0.8645833333333334in</property>
+                    </column>
+                    <column id="250">
+                        <property name="width">0.8541666666666666in</property>
+                    </column>
+                    <row id="251">
+                        <cell id="252">
+                            <property name="verticalAlign">middle</property>
+                            <text id="256">
+                                <property name="fontSize">12pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="paddingTop">8pt</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[EPO Fashion Co.,Ltd.]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="253">
+                            <property name="verticalAlign">middle</property>
+                            <text id="257">
+                                <property name="fontFamily">"楷体"</property>
+                                <property name="fontSize">18pt</property>
+                                <property name="fontWeight">bold</property>
+                                <property name="textAlign">center</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[广州爱帛服饰有限公司]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="254">
+                            <property name="verticalAlign">middle</property>
+                            <text id="258">
+                                <property name="fontFamily">"宋体"</property>
+                                <property name="paddingTop">8pt</property>
+                                <property name="textAlign">right</property>
+                                <property name="contentType">auto</property>
+                                <text-property name="content"><![CDATA[打印日期：]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="255">
+                            <property name="verticalAlign">bottom</property>
+                            <text id="1175">
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<value-of>
+ today = new Date();
+     year = today.getFullYear();
+     month = today.getMonth() + 1;
+     day = today.getDate();
+ day = year+"-"+month+"-"+day;
+</value-of>]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table id="1191">
+            <property name="dataSet">Data Set</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">index</property>
+                    <text-property name="displayName">index</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["index"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">title</property>
+                    <text-property name="displayName">title</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["title"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">text_line</property>
+                    <text-property name="displayName">text_line</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["text_line"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzbrand</property>
+                    <text-property name="displayName">zzbrand</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzbrand"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzstyle</property>
+                    <text-property name="displayName">zzstyle</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzstyle"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">maktx</property>
+                    <text-property name="displayName">maktx</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["maktx"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzbc</property>
+                    <text-property name="displayName">zzbc</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzbc"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">menge</property>
+                    <text-property name="displayName">menge</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["menge"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">pic_url</property>
+                    <text-property name="displayName">pic_url</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["pic_url"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzdger</property>
+                    <text-property name="displayName">zzdger</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzdger"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">crdat</property>
+                    <text-property name="displayName">crdat</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["crdat"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzbdtdes</property>
+                    <text-property name="displayName">zzbdtdes</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzbdtdes"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">revis_d</property>
+                    <text-property name="displayName">revis_d</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["revis_d"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzgendes</property>
+                    <text-property name="displayName">zzgendes</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzgendes"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zzshaped</property>
+                    <text-property name="displayName">zzshaped</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zzshaped"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">zlld</property>
+                    <text-property name="displayName">zlld</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["zlld"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">vtext</property>
+                    <text-property name="displayName">vtext</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["vtext"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+            </list-property>
+            <column id="1198"/>
+            <group id="1209">
+                <property name="groupName">NewTableGroup1</property>
+                <expression name="keyExpr" type="javascript">row["index"]</expression>
+                <structure name="toc">
+                    <expression name="expressionValue" type="javascript">row["index"]</expression>
+                </structure>
+                <property name="hideDetail">false</property>
+                <property name="pageBreakBefore">always-excluding-first</property>
+                <header>
+                    <row id="1210">
+                        <cell id="1211">
+                            <grid id="1466">
+                                <column id="1467">
+                                    <property name="width">10mm</property>
+                                </column>
+                                <column id="1468">
+                                    <property name="width">5mm</property>
+                                </column>
+                                <column id="1469"/>
+                                <column id="1470">
+                                    <property name="width">10mm</property>
+                                </column>
+                                <column id="1471"/>
+                                <column id="1472"/>
+                                <column id="1473">
+                                    <property name="width">10mm</property>
+                                </column>
+                                <column id="1474"/>
+                                <column id="1475"/>
+                                <column id="1476">
+                                    <property name="width">10mm</property>
+                                </column>
+                                <column id="1477"/>
+                                <column id="1478"/>
+                                <column id="1479"/>
+                                <column id="1480"/>
+                                <column id="1481"/>
+                                <column id="1482"/>
+                                <column id="1483"/>
+                                <column id="1484"/>
+                                <column id="1485"/>
+                                <column id="1486"/>
+                                <column id="1487"/>
+                                <row id="1488">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="fontSize">9pt</property>
+                                    <property name="verticalAlign">middle</property>
+                                    <property name="height">7mm</property>
+                                    <cell id="1489">
+                                        <property name="colSpan">17</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1655">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="fontWeight">bold</property>
+                                            <property name="display">inline</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[版单:]]></text-property>
+                                        </text>
+                                        <data id="1694">
+                                            <property name="display">inline</property>
+                                            <property name="resultSetColumn">text_line</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1506">
+                                        <property name="colSpan">4</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1657">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="fontWeight">bold</property>
+                                            <property name="display">inline</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[品牌:]]></text-property>
+                                        </text>
+                                        <data id="1697">
+                                            <property name="display">inline</property>
+                                            <property name="resultSetColumn">vtext</property>
+                                        </data>
+                                    </cell>
+                                </row>
+                                <row id="1510">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="fontSize">9pt</property>
+                                    <property name="verticalAlign">middle</property>
+                                    <property name="height">7mm</property>
+                                    <cell id="1511">
+                                        <property name="colSpan">17</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1656">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="fontWeight">bold</property>
+                                            <property name="display">inline</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[生产订单号:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1528">
+                                        <property name="colSpan">4</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1658">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="fontWeight">bold</property>
+                                            <property name="display">inline</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[领料单号:]]></text-property>
+                                        </text>
+                                        <data id="1695">
+                                            <property name="display">inline</property>
+                                            <property name="resultSetColumn">zlld</property>
+                                        </data>
+                                    </cell>
+                                </row>
+                                <row id="1532">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="fontSize">9pt</property>
+                                    <property name="textAlign">center</property>
+                                    <property name="verticalAlign">middle</property>
+                                    <property name="height">7mm</property>
+                                    <cell id="1533">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1642">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[波段:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1534">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1684">
+                                            <property name="resultSetColumn">zzbrand</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1536">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1643">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[款号:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1537">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1685">
+                                            <property name="resultSetColumn">zzstyle</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1539">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1644">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[名称:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1540">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1686">
+                                            <property name="resultSetColumn">maktx</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1542">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1645">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[板次:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1543">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1687">
+                                            <property name="resultSetColumn">zzbc</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1545">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1646">
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[总件数:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1546">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1688">
+                                            <property name="resultSetColumn">menge</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1547">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1647">
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[原版号:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1548">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1550">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1648">
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[交版日期:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1551">
+                                        <property name="colSpan">3</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                </row>
+                                <row id="1554">
+                                    <property name="verticalAlign">middle</property>
+                                    <property name="height">7mm</property>
+                                    <cell id="1555">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1649">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[身型:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1556">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1689">
+                                            <property name="resultSetColumn">zzbdtdes</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1558">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1650">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[版型:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1559">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1690">
+                                            <property name="resultSetColumn">revis_d</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1561">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1651">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[性别:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1562">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1691">
+                                            <property name="resultSetColumn">zzgendes</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1564">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1652">
+                                            <property name="fontSize">9pt</property>
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[针种:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1565">
+                                        <property name="colSpan">4</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1569">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1653">
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[水洗方法:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1570">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1572">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <text id="1654">
+                                            <property name="contentType">auto</property>
+                                            <text-property name="content"><![CDATA[特殊工艺:]]></text-property>
+                                        </text>
+                                    </cell>
+                                    <cell id="1573">
+                                        <property name="colSpan">3</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                </row>
+                                <row id="1576">
+                                    <property name="verticalAlign">middle</property>
+                                    <property name="height">187mm</property>
+                                    <cell id="1577">
+                                        <property name="colSpan">21</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="fontSize">8pt</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <property name="textAlign">center</property>
+                                    </cell>
+                                </row>
+                                <row id="1598">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="fontSize">9pt</property>
+                                    <property name="textAlign">center</property>
+                                    <property name="verticalAlign">middle</property>
+                                    <property name="height">7mm</property>
+                                    <cell id="1599">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1659">
+                                            <text-property name="text">设计师:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1601">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1692">
+                                            <property name="resultSetColumn">zzdger</property>
+                                        </data>
+                                    </cell>
+                                    <cell id="1673">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1661">
+                                            <text-property name="text">审批:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1604">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1606">
+                                        <property name="colSpan">1</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1663">
+                                            <text-property name="text">车板师:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1676">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1680">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1665">
+                                            <text-property name="text">纸样师:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1610">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1612">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1667">
+                                            <text-property name="text">唛架员:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1613">
+                                        <property name="colSpan">3</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1616">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1669">
+                                            <text-property name="text">跟单:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1617">
+                                        <property name="colSpan">3</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                </row>
+                                <row id="1620">
+                                    <property name="fontFamily">"宋体"</property>
+                                    <property name="fontSize">9pt</property>
+                                    <property name="textAlign">center</property>
+                                    <property name="verticalAlign">middle</property>
+                                    <property name="height">7mm</property>
+                                    <cell id="1621">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1660">
+                                            <text-property name="text">裁床:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1623">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1675">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1662">
+                                            <text-property name="text">实际件数:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1626">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1628">
+                                        <property name="colSpan">1</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1664">
+                                            <text-property name="text">剩余件数:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1677">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1681">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1666">
+                                            <text-property name="text">补裁件数:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1632">
+                                        <property name="colSpan">2</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1634">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1668">
+                                            <text-property name="text">加工厂:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1635">
+                                        <property name="colSpan">3</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                    </cell>
+                                    <cell id="1638">
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <label id="1670">
+                                            <text-property name="text">发版日期:</text-property>
+                                        </label>
+                                    </cell>
+                                    <cell id="1639">
+                                        <property name="colSpan">3</property>
+                                        <property name="rowSpan">1</property>
+                                        <property name="fontFamily">"宋体"</property>
+                                        <property name="borderBottomStyle">solid</property>
+                                        <property name="borderBottomWidth">thin</property>
+                                        <property name="borderLeftStyle">solid</property>
+                                        <property name="borderLeftWidth">thin</property>
+                                        <property name="borderRightStyle">solid</property>
+                                        <property name="borderRightWidth">thin</property>
+                                        <property name="borderTopStyle">solid</property>
+                                        <property name="borderTopWidth">thin</property>
+                                        <data id="1693">
+                                            <method name="onCreate"><![CDATA[this.altText="";]]></method>
+                                            <property name="resultSetColumn">crdat</property>
+                                        </data>
+                                    </cell>
+                                </row>
+                            </grid>
+                        </cell>
+                    </row>
+                </header>
+            </group>
+        </table>
+        <image id="1683">
+            <property name="eventHandlerClass">com.epo.report.event.Birt07ImageEvent</property>
+            <property name="height">7.008333333333334in</property>
+            <property name="width">13.316666666666666in</property>
+            <method name="onCreate"><![CDATA[this.altText="";]]></method>
+            <property name="source">url</property>
+            <expression name="uri" type="constant">row["pic_url"]</expression>
+        </image>
+    </body>
+</report>
