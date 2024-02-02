@@ -19,7 +19,7 @@
 
 
 		<java-version>1.8</java-version>
-		<org.springframework-version>5.3.18</org.springframework-version>
+		<org.springframework-version>5.3.19</org.springframework-version>
 		<org.aspectj-version>1.8.1</org.aspectj-version>
 		<org.slf4j-version>1.7.12</org.slf4j-version>
 		<!-- 文件拷贝时的编码 -->
